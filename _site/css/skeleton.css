@@ -1,0 +1,412 @@
+/*
+* IOC Skeleton -- loosely based of the 'Skeleton' framework.
+*/
+/* Dark Purple -- #775d9d
+Medium Purple -- #846ca8
+
+*/
+
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- CSS Reset
+- Base Styles
+- Typography
+- Links
+- Grid
+- Buttons
+- Forms
+- Lists
+- Tables
+- Spacing
+- Utilities
+- Media Queries
+*/
+
+/* CSS Reset
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+vertical-align: top;
+}
+
+img {
+  max-width: 100%; /* this makes sure that no image is ever too big for its container */
+}
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE while we could set the html font size with pixels, if we set it with rems then it allows the user to adjust the size of text ont heir site, which is valuable for accessibility reasons. The default value is 16px, so unless they have adjusted it it will be 16px. */
+html {
+  font-size: 1rem;
+}
+body {
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(60,60,65); /* grey is easier to read than black*/
+}
+
+header, footer {
+  padding: 4vh 5%;
+}
+
+section {
+  padding: 5vh 5%;
+  position: relative;
+  z-index: 5;
+  background-color: white;
+}
+
+.light {
+  background-color: rgb(250,250,250);
+}
+.dark {
+  background-color: rgb(60,60,65);
+  color: white;
+ }
+
+.center, .centered {
+    text-align: center;
+    justify-content: center;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  font-weight: 700; /* make sure you've downloaded this number on Google Fonts */
+}
+h1{
+  display: inline-block;
+}
+
+h1 { font-size: 3.0rem; line-height: 1.2; }
+h2 { font-size: 2.6rem; line-height: 1.25; }
+h3 { font-size: 2.2rem; line-height: 1.3; }
+h4 { font-size: 2.0rem; line-height: 1.35; }
+h5 { font-size: 1.8rem; line-height: 1.5; }
+h6 { font-size: 1.6rem; line-height: 1.6; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 450px) {
+  /* Change typography for devices smaller than 450px which includes most mobile phones */
+}
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #b5a9cf; /* add your color here */
+}
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+/*.col {*/
+/*  display: inline-block;*/
+/*  margin-left: 2%;*/
+/*  vertical-align: top;*/
+/*}*/
+
+/*.col:first-child,*/
+/*.col.first {*/
+/*  margin-left: 0;*/
+} /* this gets rid of the margin-left on the first item in every row */
+
+/*.one       { width: 6.5%;  }*/
+/*.two       { width: 15%; }*/
+/*.three     { width: 23.5%; }*/
+/*.four      { width: 32%; }*/
+/*.five      { width: 40.5%; }*/
+/*.six       { width: 49%; }*/
+/*.seven     { width: 57.5%; }*/
+/*.eight     { width: 66%; }*/
+/*.nine      { width: 74.5%;  }*/
+/*.ten       { width: 83%; }*/
+/*.eleven    { width: 91.5%; }*/
+/*.twelve    { width: 100%; margin: 0;}*/
+
+/*.one-third.col               { width: 32%; }*/
+/*.two-thirds.col              { width: 66%; }*/
+
+/*.one-half.col                { width: 49%; }*/
+
+/* Offsets */
+/*.offset-by-one       { margin-left: 10.33%; }*/
+/*.offset-by-two       { margin-left: 18.66%; }*/
+/*.offset-by-three     { margin-left: 27.00%; }*/
+/*.offset-by-four      { margin-left: 35.33%; }*/
+/*.offset-by-five      { margin-left: 43.66%; }*/
+/*.offset-by-six       { margin-left: 52.00%; }*/
+/*.offset-by-seven     { margin-left: 60.33%; }*/
+/*.offset-by-eight     { margin-left: 68.66%; }*/
+/*.offset-by-nine      { margin-left: 77.00%; }*/
+/*.offset-by-ten       { margin-left: 85.33%; }*/
+/*.offset-by-eleven    { margin-left: 93.66%; }*/
+
+/*.offset-by-one-third  { margin-left: 35.00%; }*/
+/*.offset-by-two-thirds { margin-left: 68.66%; }*/
+
+/*.offset-by-one-half   { margin-left: 52.00%; }*/
+
+
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* .button class is for a button with transparent background, and the .button-primary class is added to have a second version of the button where it's a solid color background */
+
+
+.button,
+button,
+input[type="submit"] {
+  /*display: inline-block;*/
+  padding: .5rem 2.5rem;
+  color:  #775d9d;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: 2px solid #775d9d; /* adjust color here */
+  cursor: pointer;
+  display:inline-block;
+  width: auto;
+  background-color: inherit;
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus {
+  color: #4e2784;
+  border-color: #4e2784;
+  outline: 0;
+}
+
+.button-primary {
+  color: #fff;
+  background-color: #775d9d;
+  border-color: #775d9d;
+}
+
+.button.button-primary:hover,
+.button-primary:focus {
+  color: #fff;
+  background-color: #1eaedb;
+  border-color: #1eaedb;
+}
+
+.button.center {
+    margin: auto;
+    display:inline-block;
+}
+
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input,
+textarea,
+select {
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: none;
+  width: 100%;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  font-size: 0.8em;
+  padding: .5rem;
+  vertical-align: top;
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+textarea {
+  min-height: 4rem;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33c3f0;
+  outline: 0;
+}
+label {
+  cursor: pointer;
+  min-width: 150px;
+  display: inline-block;
+}
+label,
+legend {
+  margin-bottom: .3rem;
+}
+fieldset {
+  padding: 0;
+  border-width: 0;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: .5rem;
+}
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+  list-style: circle inside;
+}
+ol {
+  list-style: decimal inside;
+}
+ol, ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1rem 0 1rem 2rem;
+  font-size: 90%;
+}
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+  padding: 1.2rem 1.5rem;
+  text-align: left;
+  border-bottom: 1px solid #e1e1e1;
+}
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.button {
+  margin-bottom: 1rem;
+}
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem;
+}
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 1.5rem;
+}
+
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.left       { text-align: left;}
+.center     { text-align: center;}
+.right      { text-align: right;}
+.justified  { text-align: justified;}
+.hidden     {display: none;}
+
+.vert-center > * {
+  vertical-align: middle; /* add the vert-center class to a parent to vertically align it's direct children in the center */
+}
+
+/* this allows you to create a two-column grid where the image will expand to fill the height of the container based on the size of the text container. You need to add the .container class to the parent, the .box-img to the div which has a background image and the .box-text to the div that contains the text. You also need to add the class of right to whichever one is on the right  You will need to separately add a class or id to set the image itself */
+
+.box-img {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  top:0;
+  left:0;
+}
+
+.box-text {
+  width: 50%;
+  display: inline-block;
+  padding: 0%;
+  text-align: left;
+}
+.box-text:not(.right){
+  padding-right: 5%;
+}
+.box-text.right{
+  padding-left: 5%;
+}
+.box-img.right {
+  right:0;
+  left:50%;
+}
+.box-text.right { margin-left: 50%;}
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  border-width: 0;
+  border-top: 1px solid #e1e1e1;
+}
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
