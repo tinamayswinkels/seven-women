@@ -1,0 +1,15 @@
+---
+title: Silk Feel Sari Gown
+description: Silk-feel Sari Gown
+price: 59
+image_path:
+class: clothing-and-scarves
+id: 9
+gallery:
+  - pic_path: /uploads/gown1.png
+  - pic_path: /uploads/gown2.png
+  - pic_path:
+---
+
+
+Beautiful dressing gowns made from recycled 'silk feel' saris in a huge range of colours. Because they're made from second hand saris, each one is unique. Our photo shows one of our seamstresses, Goma on the left, with our General Manager Nora modelling a gown!

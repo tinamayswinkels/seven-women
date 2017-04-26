@@ -1,0 +1,38 @@
+---
+layout: default
+title: Blog
+banner_path: /uploads/knitting-copy.JPG
+---
+<section class="banner-pic" style="background-image:url('{{page.banner_path}}')">
+      <h2 class="editable center">Blog</h2>
+</section>
+
+<section class="grid-3_sm-1">
+   <!--NOTE we will need to add some code so that every third product is selected and the left margin is removed as we can't add a class of first otherwise -->
+  {% for post in site.posts limit:9 %}<div class="col">
+      <div class="tab-no-stack blog-pic" style="background-image:url('{{post.image_path}}')"></div><!-- for consistent image sizes you will either need to crop the images beforehand or change this to divs with background images
+   --><div class="tab-no-stack">
+
+      <h3> {{post.title}} </h3>
+      <p class="{{post-meta}}">{{post.date | date_to_string }} | Written by {{post.author}}</p>
+      <p> {{post.excerpt | truncatewords:30 }} </p>
+      <a href="{{post.url}}"> Read More </a>
+  </div>
+  </div>{% endfor %}
+</section>
+
+
+<!-- This is an example of a loop that shows the 3 most recent posts in the travel category -->
+<!-- <section class="container">
+  <h2> Travel Category Posts </h2>
+  {% for post in site.categories.travel  limit:3 %}
+  <div class="three col">
+      <img src="{{post.image_path}}" />
+      <h3> {{post.title}} </h3>
+      <p class="{{post-meta}}">{{post.date | date_to_string }} | Written by {{post.author}}</p>
+      <p> {{post.excerpt | truncatewords:30 }} </p>
+      <a href="{{post.url}}"> Read More </a>
+    </div>
+  {% endfor %}
+
+ -->

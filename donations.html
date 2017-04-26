@@ -1,0 +1,51 @@
+---
+layout: default
+title: Donate now
+description: This a fabulous description that will appear in google when you search.
+keywords:
+banner_path: /uploads/17--the-women-began-to-create-visions-for-themselves-and-their-communities-which-now-seem-realistic-and-acheivable.jpg
+story_path: /uploads/books-white-background.jpg
+donations:
+  - image_path: /uploads/best-literacy-pic.JPG
+    cost: '25'
+    description: "Pays for a women's resources to start her off in literacy class"
+  - image_path: /uploads/5-instead-of-giving-money-to-the-women-steph-invested-in-training-for-the-women-so-that-they-would-learn-a-skill-which-could-enable-them-to-earn-a-wage-and-build-confidence-in-their-abilities.JPG
+    cost: '60'
+    description: Pays for a women to learn new skills for three months
+  - image_path: /uploads/img-0332.JPG
+    cost: '100'
+    description: Pays for a women to participate in hospitality training which leads to emppoyment pathways
+---
+
+
+<section class="banner-pic back-top hero-pic" style="background-image:url('{{page.banner_path}}'); background-position: top">
+     <h2 class="editable"> Become a seven women donor</h2>
+</section>
+<section class="grid">
+  <div class="col-6_sm-12">
+
+    <p class="editable">Your donations support us to expand our work in Nepal, which in turn empower marginalised women to take control of their own lives.&nbsp;</p>
+    <a class="button editable" href="https://donations.rawcs.com.au/Default.aspx?ProjectID=672&ReturnTo=4">To donate click here</a>
+    
+    <p class="editable">Our programs fall into three categories:<br /><br /><strong>Education:</strong><br />Literacy and Numeracy, gender awareness, Women's rights, Health &nbsp;<br /><br /><strong>Skills Training:</strong><strong></strong><br />Knitting, sewing, felting&nbsp;<br /><br /><strong>Income generation:&nbsp;</strong><br />savings and loans, opening bank accounts, basic business training, micro finance programs. &nbsp;<br /><br />We <strong>THANK-YOU</strong> for your support.&nbsp;<br />Your donations will be used on one of the below items.&nbsp;<br />&nbsp;</p>
+    <div class="center">
+    
+    </div>
+  </div>
+  <div class="col-6_sm-12 cover" style="background-image:url('{{page.story_path}}')">
+  </div>
+</section>
+<section>
+  <h3 class="editable">Your contribution goes a long way.</h3>
+    <div class="grid-3_xs-1">
+        {% for don in page.donations %}
+        <div class="mob col">
+            <h5>For ${{don.cost}}</h5>
+            <div class="don-pic cover" style="background-image:url('{{don.image_path}}')"></div>
+            <p>{{don.description}}.</p>
+        </div>{% endfor %}
+    </div>
+    <div class="center">
+        <a class="button editable" href="https://donations.rawcs.com.au/Default.aspx?ProjectID=672&ReturnTo=4">To donate click here</a>
+    </div>
+</section>

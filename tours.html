@@ -1,0 +1,50 @@
+---
+layout: default
+title: Tours by Seven Women
+description: Hands of Development tours take travellers from the bustling city of Kathmandu to the stunning mountain ranges and jungle of Chitwan National Park and the ancient city of Bhaktapur.
+keywords:       
+preFormHeading:
+type: tour
+banner-video: <iframe width="1280" height="639" src="https://www.youtube.com/embed/fnsWwzJM1_M" frameborder="0" allowfullscreen></iframe>
+---
+ <style>.embed-container { position: relative; padding-bottom: 57%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<section class="nopad grid_sm-1-middle featured">
+<div class="col-8_sm-12 no-padding">
+    <div class='embed-container'>{{page.banner-video}}</div>
+</div>
+<div class="center col featured vert-center">
+
+    <h2> Come explore Nepal</h2>
+     <p> Hands of Development tours take travellers from the bustling city of Kathmandu to the stunning mountain ranges and jungle of Chitwan National Park and the ancient city of Bhaktapur</p>
+</div>
+</section>
+
+ 
+<!--    <style>.embed-container { position: relative; padding-bottom: 57%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>-->
+<!--<section class="grid">-->
+<!--    <div class="bannervid embed-container col-9">-->
+<!--            <iframe width="560" height="315" src="https://www.youtube.com/embed/fnsWwzJM1_M" frameborder="0" allowfullscreen></iframe>-->
+<!--    </div>-->
+<!--    <div class="col-3">-->
+<!--         <h2> Come explore Nepal</h2>-->
+<!--         <p> Hands of Development tours take travellers from the bustling city of Kathmandu to the stunning mountain ranges and jungle of Chitwan National Park and the ancient city of Bhaktapur</p>-->
+<!--    </div>-->
+<!--</section>-->
+<section>
+<h2 class="editable">Immersive tours to Nepal</h2>
+<p class="editable">You will further encounter a range of grassroots organisations empowering women, ending human trafficking and exploitation. Meet leaders and game changers working in diverse sectors including human rights law, education and community development. Learn firsthand what it takes to create real and lasting change in a developing country.<br /><br />Hands On Development tours are perfect for those of any age or background curious to experience more of our beautiful world and gain a deeper insight into the culture and peoples of Nepal.<br />People leave the experience with memories of spectacular scenes of natural beauty, a profound understanding of Nepal across all levels of society and having witnessed first hand the work of charitable organisations creating real and lasting change.<br /><br />So, join us to challenge your perspectives, form lasting friendships with like-minded individuals and experience a sense of joy, contribution, connection and growth on our next tour!<br /><br /><strong> <a href="http://handsondevelopment.com.au/">For more information and application forms, click here</a></strong><br /><br />&nbsp;</p>
+</section>
+<section class="jekyll-alt nopad  ">
+<h2 class="editable cta center">Our tours</h2>
+  {% for tour in site.tours %}
+  <div class="rel">
+  <div class="box-text">
+    <h3>{{tour.title}}</h3>
+    {{tour.content | truncatewords: 100}}
+    <a href="http://handsondevelopment.com.au/" target="_blank" class="button">Read More</a>
+  </div>
+  <div class="box-img right" style="background-image: url('{{tour.image_path}}')">
+  </div>
+</div>
+{% endfor %}
+</section>

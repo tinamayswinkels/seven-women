@@ -1,0 +1,44 @@
+---
+layout: default
+banner_path: /uploads/5-instead-of-giving-money-to-the-women-steph-invested-in-training-for-the-women-so-that-they-would-learn-a-skill-which-could-enable-them-to-earn-a-wage-and-build-confidence-in-their-abilities.JPG
+youtube-embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mo-wy_CXEbQ" frameborder="0" allowfullscreen></iframe>'
+class:
+  - des: Join us for a cooking class and tour of our headquarters where you will learn traditional Nepali dishes and fund training for women in hospitality.
+    image_path: /uploads/cookingclass.JPG
+  - des: Participate in a craft lesson where you will learn how to create handmade products and learn about fair trade practices.
+    image_path: /uploads/craftclass.png
+  - des: "Join us for a 'Basic Nepali lesson for travelers' led by our literacy teacher Sandhya, and learn all you need to know to start conversing with the locals which will enrich your stay in Nepal."
+    image_path: /uploads/class.png
+---
+<section class="banner-pic" style="background-image:url('{{page.banner_path}}')">
+<h2 class="editable cta center">Classes</h2>
+</section>
+
+<section class="jekyll-alt nopad school">
+
+  {% for cl in page.class %}
+  <div class="grid-2_sm-1_xs-1 alt padded">
+  <div class="col third-height cover" style="background-image: url('{{cl.image_path}}')">
+  </div>
+  <div class="col">
+    <h3>{{cl.title}}</h3>
+    <p>{{cl.des}}</p>
+  </div>
+</div>
+{% endfor %}
+</section>
+
+<!--<section>-->
+<!--  <div class="rel">-->
+<!--    <div class="box-text editable">-->
+<!--     <p>Our cooking school provides cooking classes for visitors to learn traditional-->
+
+<!--Nepali cuisines, while providing practical experience and funds marginalized-->
+
+<!--women in hospitality training and culinary skills.</p>-->
+<!--    </div>-->
+<!--    <div class="box-img right">-->
+<!--       {{page.youtube-embed}}-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->

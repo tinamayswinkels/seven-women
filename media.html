@@ -1,0 +1,42 @@
+---
+layout: default
+title: The Story of 7 Women
+description: The story of how the 7womens charity was started
+keywords:
+youtube-embed: 'http://www.youtube.com/embed/mo-wy_CXEbQ'
+banner_path: /uploads/village-programs.JPG
+magazine-list:
+  - magazine_path: 'https://assets.entrepreneur.com/content/3x4/600/20151229141200-Entrepreneur-0116-1.jpeg'
+    link:
+  - magazine_path: 'https://assets.entrepreneur.com/content/3x4/600/1408394340entrepreneur-magazine-september-2014.jpg'
+    link:
+  - magazine_path: 'https://s-media-cache-ak0.pinimg.com/originals/cb/ce/a1/cbcea1a84a0426267192e7e222a38446.jpg'
+    link:
+---
+<section class="banner-pic flex-center" style="background-image:url('{{page.banner_path}}')">
+      <h2 class="editable center">Media</h2>
+</section>
+
+<!--<section>-->
+<!--  <div class="grid">-->
+<!--    <div class="col-6_sm-12">-->
+<!--      Lorem ipsum dolor sit amet, mutat dolor ullamcorper te cum, vix cu quis ceteros. Ne modus platonem duo, congue docendi contentiones vel cu, est nusquam erroribus intellegebat ex. Vim eu vocent volumus signiferumque, et semper impetus appareat vis, iriure vivendum nam ea. Te ipsum aliquam vis. Melius iudicabit cotidieque pro at. At lobortis platonem patrioque qui, no duo error pericula. Est liber facilisis philosophia ei.-->
+
+<!--      Nisl perfecto moderatius et usu. Eos ne dicit adipiscing assueverit, et qui lorem detraxit, quo ei suas suavitate. Mei an errem oratio suscipiantur. In mei tollit voluptua eleifend, ei epicurei torquatos conclusionemque sea. Facer incorrupte intellegebat ea has, ne vel atomorum praesent, vim suscipit incorrupte an.-->
+
+<!--      An cum audiam gubergren scripserit. Eum ne luptatum expetenda suscipiantur, cu vel quis summo. Deserunt sensibus scripserit est in. Ius dico prodesset efficiendi ad, in sea maiorum praesent evertitur. Dicta nullam gubergren cu pro, postea fierent epicurei ea pro, mel no ferri percipit delicatissimi.-->
+
+<!--    </div>-->
+<!--    <div class="col-6_sm-12">-->
+<!--       <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='{{page.youtube-embed}}' frameborder='0' allowfullscreen></iframe></div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<section class='grid-6-center'>
+    {% for mag in page.magazine-list %}
+        <a class="col" href='{{mag.link}}'> 
+            <div class="mag" style="background-image:url({{mag.magazine_path}})">
+            </div>
+        </a>
+        {% endfor %}
+</section>

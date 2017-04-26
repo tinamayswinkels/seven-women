@@ -1,0 +1,46 @@
+---
+layout: default
+title: The Story of 7 Women
+description: The story of how the 7womens charity was started
+keywords: bob
+banner_path: /uploads/felt-and-sewing-trainers-1.jpg
+catagories:
+  - type: Stuffed Toys
+  - type: Christmas Decorations
+  - type: Bags and Purses
+  - type: Decorative and Learning Strings
+  - type: Mobiles
+  - type: Clothing and Scarves
+  - type: Hand Puppets
+---
+<section class="banner-pic back-top hero-pic" style="background-image:url('{{page.banner_path}}');">
+     <h2 class="editable">Shop.Support.Change Lives</h2>
+</section>
+<section class="light">
+  <ul id="portfolio-filter">
+    <li><a href="#portfolio-grid">All</a></li>
+    {% for cat in page.catagories %}
+    <li><a href="#portfolio-grid">{{cat.type}}</a></li>
+    {% endfor %}
+  </ul>
+
+  <div class="image-grid popup-gallery" id="portfolio-grid">
+  {% for product in site.products limit:100 %}
+  <a class="col-4_sm-6_xs-12 img-with-overlay {{product.class}}" href="{{product.url}}">
+      <div class="white-box grid"> 
+            <div class="banner-pic contain col-12" style="background-image:url('{% for pic in product.gallery limit:1 %}{{pic.pic_path}}{% endfor %}')"></div>
+             <p class="col-9">{{product.title}} </p>
+             <p class="col-3">${{product.price}}</p>
+          </a>{% endfor %}
+    </div>
+  </div>
+  
+  <!--  <div class="image-grid popup-gallery" id="portfolio-grid">-->
+  <!--{% for product in site.products limit:20 %}-->
+  <!--<a class="filtered-grid4 mob-f-12 img-with-overlay {{product.class}}" href="{{product.url}}">-->
+  <!--  <div class="banner-pic contain" style="background-image:url('{{product.image_path}}')"/>-->
+  <!--   <p>Read On</p>-->
+  <!--</a>{% endfor %}-->
+  <!--</div>-->
+</section>
+{% include jq.html %}

@@ -1,0 +1,67 @@
+# this is your configuration file that gives instructions to jekyll
+brand_color: '#f05f40'
+featured_color: red
+light_color: grey
+font_family: 'Courier New'
+heading_font_size: 18px
+body_font_size: 18px
+
+
+# here list all of your categories
+categories:
+- food
+- wine
+- travel
+- chocolate
+- Volenters
+- Employes
+
+# here list any additional collections you create
+collections:
+  - products
+  - peoples
+  - tours
+  - sponsor
+
+collections:
+  products:
+    output: true
+  tours:
+    output: false
+  peoples:
+    output: false
+  sponsor:
+    output: false
+# here we can set defaults for our pages, posts of collection items
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      title: "7 Women"
+      description: "Young Australian social entrepreneur Stephanie Woollard began Seven Women at only 22, after meeting seven disabled women operating out of a tin shed in Kathmandu struggling to make a living and enduring harsh discrimination. Since 2006, Seven Women has been working to empower marginalised Nepalese women through quipping them with the skills and know how to thrive."
+      keywords: ""
+      featured-image_path: ""
+      preFormHeading: "Get in touch"
+  -
+    scope:
+      path: ""
+      type: "posts" # this will apply to all posts
+    values:
+      layout: post
+      title: ""
+      categories: ""
+      author: "Joe"
+      image_path: ""
+  -
+    scope:
+      path: ""
+      type: "products" # this will apply to all products
+    values:
+      layout: "product-page"
+      title: ""
+      description: ""
+      price: ""
+      type: ""
+      image_path: ""

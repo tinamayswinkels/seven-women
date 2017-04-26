@@ -1,0 +1,15 @@
+---
+title: Yak Wool Stole - Midnight Black
+description: Midnight Black Yak Wool Stole
+price: 49.95
+image_path:
+class: clothing-and-scarves
+id: 44
+gallery:
+  - pic_path: /uploads/stole1.png
+  - pic_path: /uploads/stole2.png
+  - pic_path: /uploads/stole3.png
+---
+
+
+Beautifully soft light weight yak wool stoles with fringed ends. Limited edition, while stocks last!
