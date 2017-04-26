@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##Jekyll
 /_site/
 _site/
@@ -5,3 +6,8 @@ _site
 /.sass-cache/
 .sass-cache/
 .sass-cache 
+=======
+_site/
+.sass-cache/
+.jekyll-metadata
+>>>>>>> origin/master
