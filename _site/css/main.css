@@ -59,6 +59,7 @@ hr {
 .pad-left {
     padding-left: 1%;
 }
+.pad-bot-0{padding-bottom: 0}
 
 .box-text{
 padding: 3% 5%;
@@ -139,8 +140,9 @@ min-height: 50vh;
     position:absolute;
     display:none;
     right:0px;
-    background-color:rgba(255,255,255,.7);
+    background-color:#fff;
     border-radius:5px;
+    top:1rem;
 }
 .dropdowncontent a{
     padding:0.4vw 1vw;
@@ -157,7 +159,8 @@ min-height: 50vh;
 .back-top{
     background-position:top center;
 }
-
+.no-margin{margin:0}
+.margin-bot-0{margin-bottom: 0}
 .margin-left{margin-left:.5%;}
 .margin-right{margin-right:.5%}
 .margin-auto{
@@ -265,7 +268,6 @@ border-radius: 1rem;
   font-size: 2rem;
   text-align:center;
 }
-
 .hidden{
   display: none;
 }
@@ -287,14 +289,19 @@ border-radius: 1rem;
 a{
   color: #4E2784
 }
+.fadded-banner{
+  min-height: 30vh;
+  width:100%;
+  background-color: rgba(130, 130, 130, 0.3);
+  justify-content:center;
+    align-items: center;
+    display: flex;
+}
 .banner-pic{
   min-height: 30vh;
   width:100%;
   background-size: cover;
   background-position: center;
-  justify-content:center;
-    align-items: center;
-    display: flex;
 }
 .banner-pic h2{
     margin: 0;
@@ -313,7 +320,7 @@ footer nav {
   color: white;
   font-size: 0.8rem;
  }
- 
+
  .subfooter a {
      color: white;
      padding: 1%;
@@ -327,7 +334,7 @@ a.ioc {
     margin: 0;
     padding: 1%;
 }
-  
+
 
 .youtube iframe{
     width:100%;
@@ -520,9 +527,9 @@ background-position: center;
   z-index:999;
 }
 
-.menu{z-index:99; font-weight:bold; font-size:0.8em; width:100%; 
-background:rgba(60,60,65,0.7);  
-position:absolute; 
+.menu{z-index:99; font-weight:bold; font-size:0.8em; width:100%;
+background:rgba(60,60,65,0.7);
+position:absolute;
 text-align:center;
 right: 0;
 top: 0;

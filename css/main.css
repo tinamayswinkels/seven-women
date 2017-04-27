@@ -268,7 +268,6 @@ border-radius: 1rem;
   font-size: 2rem;
   text-align:center;
 }
-
 .hidden{
   display: none;
 }
@@ -290,14 +289,19 @@ border-radius: 1rem;
 a{
   color: #4E2784
 }
+.fadded-banner{
+  min-height: 30vh;
+  width:100%;
+  background-color: rgba(130, 130, 130, 0.3);
+  justify-content:center;
+    align-items: center;
+    display: flex;
+}
 .banner-pic{
   min-height: 30vh;
   width:100%;
   background-size: cover;
   background-position: center;
-  justify-content:center;
-    align-items: center;
-    display: flex;
 }
 .banner-pic h2{
     margin: 0;
