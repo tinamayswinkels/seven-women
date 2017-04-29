@@ -575,6 +575,19 @@ form input {
     width: 100%;
 }
 
+.checkbox {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+}
+
+.checkbox-label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
 /*----------- about page -----------*/
 
 .about img{
