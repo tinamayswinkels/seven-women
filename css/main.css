@@ -90,8 +90,9 @@ min-height: 50vh;
 .flex-center{
     justify-content:center;
     align-items: center;
-    display: flex;
+    display: flex !important;
 }
+
 .third-height {
   min-height: 33vh;
 }
@@ -307,6 +308,10 @@ a{
 .banner-pic h2{
     margin: 0;
     color: white;
+}
+
+.tall-banner{
+  height: 80vh;
 }
 
 /*    footer  */
