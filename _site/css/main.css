@@ -289,7 +289,7 @@ border-radius: 1rem;
 a{
   color: #4E2784
 }
-.fadded-banner{
+.faded-banner{
   min-height: 30vh;
   width:100%;
   background-color: rgba(130, 130, 130, 0.3);
@@ -302,6 +302,7 @@ a{
   width:100%;
   background-size: cover;
   background-position: center;
+  padding: 0;
 }
 .banner-pic h2{
     margin: 0;
@@ -642,7 +643,11 @@ section.tours{
   display: none!important;
 }
 
+/*contact form*/
 
+.contact-page div{
+  padding: 0 2%;
+}
 
 
 /* For devices smaller than 767px which includes most tablets */

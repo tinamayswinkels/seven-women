@@ -6,7 +6,7 @@ keywords:
 banner_path: /uploads/sevenwomenshop.JPG
 ---
 <section class="banner-pic" style="background-image:url('{{page.banner_path}}')">
-  <div class="fadded-banner">
+  <div class="faded-banner">
     <h2 class="editable center">Contact</h2>
   </div>
 </section>
@@ -14,7 +14,7 @@ banner_path: /uploads/sevenwomenshop.JPG
 <section>
   <div class="rel">
   <div class="box-text">
-  <form class="editable grid" action="//formspree.io/your@email.com" method="post">
+  <form class="editable grid contact-page" action="//formspree.io/your@email.com" method="post">
     <div class="col-6">
       <label for="username">Name</label>
       <input type="text" id="username" placeholder="John Doe" name="username" />
@@ -27,7 +27,7 @@ banner_path: /uploads/sevenwomenshop.JPG
       <label class="block" for="email">Email address</label>
       <input type="email" id="email" placeholder="something@somewhere.com" name="email" />
     </div>
-    <h6>which tours are you intrested in</h6>
+    <h6>which tours are you interested in?</h6>
           {% for tour in site.tours %}
     <div class="col-6 grid">
     <input class="col" type="Checkbox" name="tour" id="{{tour.title}}" value="{{tour.title}}" />
