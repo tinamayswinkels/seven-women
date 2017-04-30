@@ -643,15 +643,21 @@ section.tours{
 
 /* media*/
 
-.mag{
+.mag {
     min-height:20vw;
     background-size:contain;
     background-position:center;
     background-repeat: no-repeat;
 }
+.mag-title {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
 /*donations*/
 
-.don-pic{
+.don-pic {
     height:30vh;
 }
 /* Responsive Grids */
