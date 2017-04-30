@@ -644,7 +644,7 @@ section.tours{
 /* media*/
 
 .mag {
-    min-height:20vw;
+    min-height:200px;
     background-size:contain;
     background-position:center;
     background-repeat: no-repeat;
