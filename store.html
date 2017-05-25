@@ -14,7 +14,9 @@ catagories:
   - type: Hand Puppets
 ---
 <section class="banner-pic back-top hero-pic" style="background-image:url('{{page.banner_path}}');">
-     <h2 class="editable">Shop.Support.Change Lives</h2>
+  <div class="faded-banner">
+   <h2 class="editable">Shop.Support.Change Lives</h2>
+ </div>
 </section>
 <section class="light">
   <ul id="portfolio-filter">
@@ -27,14 +29,14 @@ catagories:
   <div class="image-grid popup-gallery" id="portfolio-grid">
   {% for product in site.products limit:100 %}
   <a class="col-4_sm-6_xs-12 img-with-overlay {{product.class}}" href="{{product.url}}">
-      <div class="white-box grid"> 
+      <div class="white-box grid">
             <div class="banner-pic contain col-12" style="background-image:url('{% for pic in product.gallery limit:1 %}{{pic.pic_path}}{% endfor %}')"></div>
              <p class="col-9">{{product.title}} </p>
              <p class="col-3">${{product.price}}</p>
           </a>{% endfor %}
     </div>
   </div>
-  
+
   <!--  <div class="image-grid popup-gallery" id="portfolio-grid">-->
   <!--{% for product in site.products limit:20 %}-->
   <!--<a class="filtered-grid4 mob-f-12 img-with-overlay {{product.class}}" href="{{product.url}}">-->

@@ -25,11 +25,11 @@ banner_path: /uploads/sevenwomenshop.JPG
       <label class="block" for="email">Email address</label>
       <input type="email" id="email" placeholder="something@somewhere.com" name="email" />
     </div>
-    <h6>which tours are you intrested in</h6>
+    <h6>Which tours are you intrested in?</h6>
           {% for tour in site.tours %}
-    <div class="col-6 grid">
-    <input class="col" type="Checkbox" name="tour" id="{{tour.title}}" value="{{tour.title}}" />
-    <label class="col no-padding" for="{{tour.title}}" class="no-min">{{tour.title}}</label>
+    <div>
+    <input class="checkbox" type="Checkbox" name="tour" id="{{tour.title}}" value="{{tour.title}}" />
+    <label class="checkbox-label" for="{{tour.title}}" class="no-min">{{tour.title}}</label>
     </div>
     {% endfor %}
 
