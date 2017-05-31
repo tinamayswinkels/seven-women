@@ -1,6 +1,7 @@
 ---
 title: Petrol Cat Purse
 description: Petrol Cat Purse
+featured: false
 price: 12
 image_path:
 class: bags-and-purses

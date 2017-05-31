@@ -1,6 +1,7 @@
 ---
 title: Jumbo Bobble Garland - Rainbow
 description: Rainbow Garland
+featured: false
 price: 49.95
 image_path:
 class: decorative-and-learning-strings

@@ -1,6 +1,7 @@
 ---
 title: Green Mushroom Purse
 description: Green Mushroom Purse
+featured: false
 price: 12
 image_path:
 class: bags-and-purses

@@ -1,6 +1,7 @@
 ---
 title: Women’s Silk Feel Sari Singlet Tops
 description: Silk-Feel Sari Top
+featured: false
 price: 25
 image_path:
 class: clothing-and-scarves

@@ -1,6 +1,7 @@
 ---
 title: Hippo Hand Puppet
 description: Hippo Hand Puppet
+featured: false
 price: 16.95
 image_path:
 class: hand-puppets

@@ -1,6 +1,7 @@
 ---
 title: Smartie Ball Mat (150cm)
 description: Smartie Ball Mat
+featured: false
 price: 560
 image_path:
 class: felt-ball-products

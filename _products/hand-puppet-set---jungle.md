@@ -1,6 +1,7 @@
 ---
 title: Hand Puppet Set - Jungle (3 Puppets)
 description: Three hand puppets in a fun jungle design
+featured: false
 price: 44
 image_path: /uploads/screenshot-7.png
 class: hand-puppets

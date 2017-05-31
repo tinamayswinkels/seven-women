@@ -1,6 +1,7 @@
 ---
 title: Horse Hand Puppet
 description: horse hand puppet
+featured: false
 price: 16.95
 image_path:
 class: hand-puppets

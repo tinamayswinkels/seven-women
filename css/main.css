@@ -28,7 +28,11 @@ p.emphasis {
 box-img {
     max-width:100%;
     height:auto;
-    background-color: ;#b5a9cf;
+    background-color: #b5a9cf;
+}
+
+.light {
+  background-color: rgb(240,240,240);
 }
 
 hr {
@@ -191,6 +195,12 @@ min-height: 50vh;
     max-width:250px;
     margin-left:6%;
 }
+
+.white-box {
+  padding: 1rem;
+  background-color: white;
+}
+
 /*header nav*/
 header nav{
   vertical-align: bottom;
@@ -297,8 +307,7 @@ border-radius: 1rem;
 a{
   color: #4E2784
 }
-<<<<<<< HEAD
-=======
+
 .faded-banner{
   min-height: 30vh;
   width:100%;
@@ -307,19 +316,18 @@ a{
     align-items: center;
     display: flex;
 }
->>>>>>> origin/master
+
 .banner-pic{
   min-height: 30vh;
   width:100%;
+  background-color: rgb(220,220,220);
   background-size: cover;
   background-position: center;
-<<<<<<< HEAD
   justify-content:center;
-    align-items: center;
-    display: flex;
-=======
+  align-items: center;
+  display: flex;
   padding: 0;
->>>>>>> origin/master
+
 }
 .banner-pic h2{
     margin: 0;
@@ -596,6 +604,11 @@ form input {
     width: 100%;
 }
 
+form .col-6 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .checkbox {
     display: inline-block;
     vertical-align: middle;
@@ -666,7 +679,7 @@ section.tours{
     background-repeat: no-repeat;
 }
 .mag-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 0.5rem;
     margin-bottom: 0;
 }

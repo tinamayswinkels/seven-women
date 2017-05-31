@@ -1,6 +1,7 @@
 ---
 title: Cotton Scarves
 description: Cotton Scarves
+featured: false
 price: 22
 image_path:
 class: clothing-and-scarves

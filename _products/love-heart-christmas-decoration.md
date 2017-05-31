@@ -1,6 +1,7 @@
 ---
 title: Butterfly Mobile
 description: Butterfly mobile
+featured: false
 price: 65
 image_path:
 class: mobiles

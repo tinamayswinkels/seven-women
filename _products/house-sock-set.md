@@ -1,6 +1,7 @@
 ---
 title: House Sock Set
 description: House Sock Set
+featured: false
 price: 700
 image_path:
 class: decorative-and-learning-strings

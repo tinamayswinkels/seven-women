@@ -1,6 +1,7 @@
 ---
 title: Heart Strings
 description: Heart String Set
+featured: false
 price: 16
 image_path:
 class: decorative-and-learning-strings

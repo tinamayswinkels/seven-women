@@ -1,6 +1,7 @@
 ---
 title: Parrot Hand Puppet
 description: Parrot Hand Puppet
+featured: false
 price: 16.95
 image_path:
 class: hand-puppets

@@ -1,6 +1,7 @@
 ---
 title: Hand Puppet - Cow
 description: Cow Hand Puppet
+featured: false
 price: 16.95
 image_path:
 class: hand-puppets
@@ -10,5 +11,3 @@ gallery:
   - pic_path:
   - pic_path:
 ---
-
-

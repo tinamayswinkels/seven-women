@@ -1,6 +1,7 @@
 ---
 title: Cashmere Pashmina - Slate Grey
 description: Cashmere Pashmina
+featured: false
 price: 50
 class: clothing-and-scarves
 id: 4

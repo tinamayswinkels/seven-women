@@ -1,6 +1,7 @@
 ---
 title: Chicken Hand Puppet
 description: Chicken Hand Puppet
+featured: false
 price: 16.95
 class: hand-puppets
 id: 17

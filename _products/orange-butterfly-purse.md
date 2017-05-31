@@ -1,6 +1,7 @@
 ---
 title: Orange Butterfly Purse
 description: Orange Butterfly Purse
+featured: false
 price: 12
 image_path:
 class: bags-and-purses

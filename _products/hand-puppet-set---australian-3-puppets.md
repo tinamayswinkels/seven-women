@@ -1,6 +1,7 @@
 ---
 title: Hand Puppet Set - Australian (3 Puppets)
 description: Hand Puppet Set
+featured: false
 price: 44
 image_path:
 class: hand-puppets

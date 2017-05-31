@@ -1,6 +1,7 @@
 ---
 title: Snowman Christmas Decoration
 description: Snowman Christmas Ornament
+featured: false
 price: 7.5
 image_path:
 class: christmas-decorations

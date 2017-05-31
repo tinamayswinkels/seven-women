@@ -1,6 +1,7 @@
 ---
 title: Women’s Silk Feel Sari Boxer Shorts
 description: Silk-Feel Sari Boxer Shorts
+featured: false
 price: 25
 image_path:
 class: clothing-and-scarves

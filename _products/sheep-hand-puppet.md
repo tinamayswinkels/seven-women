@@ -1,6 +1,7 @@
 ---
 title: Sheep Hand Puppet
 description: Sheep Hand Puppet
+featured: false
 price: 16.95
 image_path:
 class: hand-puppets

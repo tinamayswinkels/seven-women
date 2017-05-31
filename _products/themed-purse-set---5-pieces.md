@@ -1,6 +1,7 @@
 ---
 title: Themed Purse Set - 5 pieces
 description: Themed Purse Set
+featured: false
 price: 60
 image_path:
 class: bags-and-purses

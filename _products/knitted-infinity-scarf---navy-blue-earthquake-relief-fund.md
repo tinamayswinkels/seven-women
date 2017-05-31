@@ -1,6 +1,7 @@
 ---
 title: 'Knitted Infinity Scarf - Navy Blue [Earthquake Relief Fund]'
 description: Navy Blue Infinity Scarf
+featured: false
 price: 49.95
 image_path:
 class: clothing-and-scarves

@@ -1,6 +1,7 @@
 ---
 title: Finger Puppet Bag - Farm Set
 description: Finger Puppet Farm Set
+featured: false
 price: 29.95
 image_path:
 class: hand-puppets

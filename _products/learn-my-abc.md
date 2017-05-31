@@ -1,6 +1,7 @@
 ---
 title: Learn My ABC
 description: ABC Learning String
+featured: false
 price: 44
 image_path:
 class: decorative-and-learning-strings

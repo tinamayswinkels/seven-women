@@ -1,6 +1,7 @@
 ---
 title: Pack of 50 Felt Balls (2cm)
 description: 50 Felt Balls
+featured: false
 price: 14.95
 image_path:
 class: felt-ball-products
