@@ -347,8 +347,7 @@ border-radius: 1rem;
 a{
   color: #4E2784
 }
-<<<<<<< HEAD
-=======
+
 .faded-banner{
   min-height: 30vh;
   width:100%;
@@ -357,20 +356,17 @@ a{
     align-items: center;
     display: flex;
 }
->>>>>>> origin/master
+
 .banner-pic{
   min-height: 30vh;
   width:100%;
   background-size: cover;
   background-position: center;
-<<<<<<< HEAD
   justify-content:center;
     align-items: center;
     display: flex;
-=======
   padding: 0;
->>>>>>> origin/master
-}
+
 .banner-pic h2{
     margin: 0;
     color: white;
