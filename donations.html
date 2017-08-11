@@ -41,8 +41,8 @@ donations:
     <div class="grid-3_xs-1">
         {% for don in page.donations %}
         <div class="mob col">
-            <h5>For ${{don.cost}}</h5>
             <div class="don-pic cover" style="background-image:url('{{don.image_path}}')"></div>
+            <h5>For ${{don.cost}}</h5>
             <p>{{don.description}}.</p>
         </div>{% endfor %}
     </div>
