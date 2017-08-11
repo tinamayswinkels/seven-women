@@ -170,52 +170,6 @@ a:hover {
 /* .button class is for a button with transparent background, and the .button-primary class is added to have a second version of the button where it's a solid color background */
 
 
-.button,
-button,
-input[type="submit"] {
-  /*display: inline-block;*/
-  padding: .5rem 2.5rem;
-  color:  #775d9d;
-  text-align: center;
-  font-size: 0.8rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 2px;
-  border: 2px solid #775d9d; /* adjust color here */
-  cursor: pointer;
-  display:inline-block;
-  width: auto;
-  background-color: inherit;
-}
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus {
-  color: #4e2784;
-  border-color: #4e2784;
-  outline: 0;
-}
-
-.button-primary {
-  color: #fff;
-  background-color: #775d9d;
-  border-color: #775d9d;
-}
-
-.button.button-primary:hover,
-.button-primary:focus {
-  color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb;
-}
-
-.button.center {
-    margin: auto;
-    display:inline-block;
-}
-
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
