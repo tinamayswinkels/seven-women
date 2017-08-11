@@ -349,7 +349,7 @@ a{
 }
 
 .faded-banner{
-  min-height: 30vh;
+  min-height: 40vh;
   width:100%;
   background-color: rgba(130, 130, 130, 0.3);
   justify-content:center;
@@ -358,7 +358,7 @@ a{
 }
 
 .banner-pic{
-  min-height: 30vh;
+  min-height: 40vh;
   width:100%;
   background-size: cover;
   background-position: center;
