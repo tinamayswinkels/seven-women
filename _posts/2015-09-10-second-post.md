@@ -1,5 +1,5 @@
 ---
-layout: post
+_layout: post
 title: Second Post
 categories: [travel, food]
 author: Emile
