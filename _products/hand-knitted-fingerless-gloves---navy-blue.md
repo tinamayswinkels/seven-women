@@ -2,13 +2,10 @@
 title: Hand Knitted Fingerless Gloves - Navy Blue
 description: Fingerless Gloves
 price: 22
-image_path:
 class: clothing-and-scarves
 id: 20
 gallery:
   - pic_path: /uploads/fingerless.png
-  - pic_path:
-  - pic_path:
 ---
 
 

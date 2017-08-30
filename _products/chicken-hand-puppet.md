@@ -6,7 +6,6 @@ class: hand-puppets
 id: 17
 gallery:
   - pic_path: /uploads/chick.png
-  - pic_path:
 ---
 
 

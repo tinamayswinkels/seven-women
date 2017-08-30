@@ -22,7 +22,7 @@ layout: default
   </div>
     <div class="gallerybox">
     {% for pic in page.gallery limit:5 %}
-    <div class="gallery-pic contain" data-pic="{{pic.pic_path}}" style="background-image:url('{{pic.pic_path}}')"></div>
+    <div class="gallery-pic contain" data-pic="'{% for pic in page.gallery limit:1 %} {{pic.pic_path}} {% endfor %}" style="background-image:url('{{pic.pic_path}}')"></div>
     {% endfor %}
     </div>
   <div class="grid border-top">
@@ -36,7 +36,7 @@ layout: default
           <h4>Refunds & Returns</h4>
           <p>All products come with a 21 day return guarantee. Any returned item must be received by us within this time. Items must be returned unused, unwashed, in their original condition and packaging with all tags intact. You may either exchange the item or request a full refund. Return postage is at the sender`s expense - should you request replacements for returned items, you will not be charged again for delivery.</p>
       </div>
-      
+
   </div>
 </section>
 

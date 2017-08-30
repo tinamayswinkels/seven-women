@@ -9,7 +9,6 @@ description: >-
 price: 29.95
 class: book
 id: 43
-pic_path: /uploads/fullsizerender-3.jpg
 gallery:
   - pic_path: /uploads/bobble garland.png
 ---

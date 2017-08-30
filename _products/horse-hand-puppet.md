@@ -2,13 +2,10 @@
 title: Horse Hand Puppet
 description: horse hand puppet
 price: 16.95
-image_path:
 class: hand-puppets
 id: 18
 gallery:
   - pic_path: /uploads/horse.png
-  - pic_path:
-  - pic_path:
 ---
 
 

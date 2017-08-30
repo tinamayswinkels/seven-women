@@ -2,13 +2,10 @@
 title: Hippo Hand Puppet
 description: Hippo Hand Puppet
 price: 16.95
-image_path:
 class: hand-puppets
 id: 55
 gallery:
   - pic_path: /uploads/bobble garland.png
-  - pic_path:
-  - pic_path:
 ---
 
 

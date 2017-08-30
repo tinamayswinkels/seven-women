@@ -4,7 +4,6 @@ description: Cashmere Pashmina
 price: 50
 class: clothing-and-scarves
 id: 4
-pic_path: /uploads/Screen Shot 2017-02-09 at 8.29.57 AM.png
 gallery:
   - pic_path: /uploads/Screen Shot 2017-02-09 at 8.29.57 AM.png
   - pic_path: /uploads/Screen Shot 2017-02-09 at 8.30.25 AM.png

@@ -2,13 +2,10 @@
 title: Elephant Hand Puppet
 description: Elephant Hand Puppet
 price: 16.95
-image_path:
 class: hand-puppets
 id: 51
 gallery:
   - pic_path: /uploads/elephant puppet.png
-  - pic_path:
-  - pic_path:
 ---
 
 

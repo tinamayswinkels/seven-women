@@ -2,13 +2,11 @@
 title: Hand Knitted House Socks - Kids
 description: Hand Knitted House Socks - Kids
 price: 32
-image_path:
 class: clothing-and-scarves
 id: 38
 gallery:
   - pic_path: /uploads/kids socks1.png
   - pic_path: /uploads/kids socks2.png
-  - pic_path:
 ---
 
 

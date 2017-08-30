@@ -8,7 +8,6 @@ id: 16
 gallery:
   - pic_path: /uploads/string1.png
   - pic_path: /uploads/string2.png
-  - pic_path:
 ---
 
 

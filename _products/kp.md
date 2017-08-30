@@ -7,8 +7,6 @@ class: hand-puppets
 id: 40
 gallery:
   - pic_path: /uploads/koala.png
-  - pic_path:
-  - pic_path:
 ---
 
 

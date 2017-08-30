@@ -7,8 +7,6 @@ class: hand-puppets
 id: 52
 gallery:
   - pic_path: /uploads/lion hand puppet.png
-  - pic_path:
-  - pic_path:
 ---
 
 

@@ -7,8 +7,6 @@ class: clothing-and-scarves
 id: 39
 gallery:
   - pic_path: /uploads/red beanie.png
-  - pic_path:
-  - pic_path:
 ---
 
 

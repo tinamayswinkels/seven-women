@@ -2,13 +2,10 @@
 title: Platypus Hand Puppet
 description: Platypus Hand Puppet
 price: 16.95
-image_path:
 class: hand-puppets
 id: 54
 gallery:
   - pic_path: /uploads/bobble garland.png
-  - pic_path:
-  - pic_path:
 ---
 
 

@@ -2,7 +2,6 @@
 title: Ellie the Elephant
 description: Ellie the Elephant
 price: 24.95
-image_path: /uploads/screenshot-10.png
 class: hand-puppets
 id: 1
 gallery:

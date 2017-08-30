@@ -7,8 +7,6 @@ class: clothing-and-scarves
 id: 29
 gallery:
   - pic_path: /uploads/cottonscarves.png
-  - pic_path:
-  - pic_path:
 ---
 
 
