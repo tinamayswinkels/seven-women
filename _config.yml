@@ -79,3 +79,12 @@ defaults:
       price: ""
       type: ""
       image_path: ""
+      class:
+        - stuffed-toys
+        - christmas-decorations
+        - bags-and-purses
+        - decorative-and-learning-strings
+        - mobiles
+        - clothing-and-scarves
+        - hand-puppets
+        - books-and-dvd
