@@ -4,6 +4,7 @@ description: Bobble Garland - Rainbow
 price: 29.95
 class:
   - decorative-and-learning-strings
+  - christmas-decorations
 id: 43
 gallery:
   - pic_path: /uploads/bobble garland.png
