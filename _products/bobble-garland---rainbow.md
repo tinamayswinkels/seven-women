@@ -2,7 +2,7 @@
 title: Bobble Garland - Rainbow
 description: Bobble Garland - Rainbow
 price: 29.95
-
+class:
 id: 43
 pic_path: /uploads/bobble garland.png
 gallery:
