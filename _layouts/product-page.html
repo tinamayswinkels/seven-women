@@ -18,11 +18,11 @@ layout: default
       </button>
     </div>
 
-    <div class="box-img right contain gallery-target" style="background-image:url('{% for pic in page.gallery limit:1 %} {{pic.pic_path}} {% endfor %}')"></div>
+    <div class="box-img right contain gallery-target" style="background-image:url('{% for pic in page.gallery limit:1 %}{{pic.pic_path}}{% endfor %}')"></div>
   </div>
     <div class="gallerybox">
     {% for pic in page.gallery limit:5 %}
-    <div class="gallery-pic contain" data-pic="{% for pic in page.gallery limit:1 %} {{pic.pic_path}} {% endfor %}" style="background-image:url('{{pic.pic_path}}')"></div>
+    <div class="gallery-pic contain" data-pic="{% for pic in page.gallery limit:1 %}{{pic.pic_path}}{% endfor %}" style="background-image:url('{{pic.pic_path}}')"></div>
     {% endfor %}
     </div>
   <div class="grid border-top">
