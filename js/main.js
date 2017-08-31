@@ -28,9 +28,10 @@ jQuery(document).ready(function($) {
 
   });
 
-  $('.gallery-pic').click(function(e) {
+  $('.gallery-pic').mouseenter(function(e) {
     e.preventDefault();
     
+    alert(test)
     
     var background = $(this).attr('data-pic');
     
