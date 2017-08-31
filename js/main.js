@@ -26,10 +26,9 @@ jQuery(document).ready(function($) {
         }
       });
 
-
   });
 
-  $('.gallery-pic').mouseenter(function(e) {
+  $('.gallery-pic').click(function(e) {
     e.preventDefault();
     
     
