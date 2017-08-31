@@ -29,7 +29,7 @@ catagories:
 
   <div class="image-grid popup-gallery" id="portfolio-grid">
   {% for product in site.products limit:100 %}
-  <a class="col-4_sm-6_xs-12 img-with-overlay {{product.class | split:" "}}" href="{{product.url}}">
+  <a class="col-4_sm-6_xs-12 img-with-overlay {{product.class | split:" test "}}" href="{{product.url}}">
       <div class="white-box grid">
             <div class="banner-pic contain col-12" style="background-image:url('{% for pic in product.gallery limit:1 %}{{pic.pic_path}}{% endfor %}')"></div>
              <p class="col-9">{{product.title}} </p>
