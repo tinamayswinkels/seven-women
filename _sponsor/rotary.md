@@ -1,4 +1,6 @@
 ---
-sponsor_path: /uploads/britex-logo-1.jpg
+sponsor_path: /uploads/logo-d9800-rotary-1-1.png
 name: Rotary
 ---
+
+
