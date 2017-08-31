@@ -33,7 +33,7 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     
     
-    var background = $(this).attr("data-pic");
+    var background = $(this).attr('data-pic');
     
     
 $(".gallery-target").css("background-image","url("+ background +")");
