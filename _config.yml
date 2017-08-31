@@ -6,6 +6,15 @@ font_family: 'Courier New'
 heading_font_size: 18px
 body_font_size: 18px
 
+class:
+  - stuffed-toys
+  - christmas-decorations
+  - bags-and-purses
+  - decorative-and-learning-strings
+  - mobiles
+  - clothing-and-scarves
+  - hand-puppets
+  - books-and-dvd
 
 # here list all of your categories
 categories:
