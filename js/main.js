@@ -32,7 +32,7 @@ jQuery(document).ready(function($) {
   $('.gallery-pic').mouseenter(function(e) {
     e.preventDefault();
     var background = $(this).attr("data-pic");
-$(".gallery-target").css("background-image","url('+ background +')");
+$(".gallery-target").css("background-image","url("+ background +")");
   });
 
 });
