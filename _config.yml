@@ -69,7 +69,7 @@ defaults:
     values:
       layout: "product-page"
       _comments:
-        title: Shis is the name of the product. it will apera on the browser tab and on the store page.
+        title: This is the name of the product. it will apera on the browser tab and on the store page.
         description: This will show up if some one googles this product and it comes up on a google search page.
         class: This is where you put in the type of item it is and allows it to be filtered by that type.
         id: This is a uneice number that snipcart needs to prosece the product.
