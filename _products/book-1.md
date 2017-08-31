@@ -2,7 +2,7 @@
 title: From a Tin Shed to the United Nations
 description: Book | From a Tin Shed to the United Nations
 price: 29.95
-class: book
+class: Books-and-DVDs
 id: 53
 pic_path: /uploads/fullsizerender.jpg
 gallery:
