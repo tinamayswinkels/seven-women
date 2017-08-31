@@ -4,7 +4,6 @@ description: Bobble Garland - Rainbow
 price: 29.95
 class:
   - decorative-and-learning-strings
-  - books-and-dvd
 id: 43
 pic_path: /uploads/bobble garland.png
 gallery:
