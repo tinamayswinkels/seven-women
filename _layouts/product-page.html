@@ -22,7 +22,7 @@ layout: default
   </div>
     <div class="gallerybox">
     {% for pic in page.gallery limit:5 %}
-    <div class="gallery-pic contain" data-pic="'{% for pic in page.gallery limit:1 %} {{pic.pic_path}} {% endfor %}" style="background-image:url('{{pic.pic_path}}')"></div>
+    <div class="gallery-pic contain" data-pic="{% for pic in page.gallery limit:1 %} {{pic.pic_path}} {% endfor %}" style="background-image:url('{{pic.pic_path}}')"></div>
     {% endfor %}
     </div>
   <div class="grid border-top">
