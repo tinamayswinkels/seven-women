@@ -6,8 +6,7 @@ class: Books-and-DVDs
 id: 53
 pic_path: /uploads/fullsizerender.jpg
 gallery:
-  - pic_path: /uploads/bobble garland.png
-  - pic_path:
+  - pic_path: /uploads/fullsizerender-1.jpg
   - pic_path:
 ---
 
