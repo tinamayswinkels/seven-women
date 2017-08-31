@@ -71,7 +71,7 @@ defaults:
       _comments:
         title: This is the name of the product. it will apera on the browser tab and on the store page.
         description: This will show up if some one googles this product and it comes up on a google search page.
-        class: This is where you put in the type of item it is and allows it to be filtered by that type.
+        class: This is where you put in the type of item it is and allows it to be filtered by that type. Max one class per item.
         id: This is a unique number that snipcart needs to prosece the product.
         gallery: This is where we place images that will show up on the product page. The first one will be on the store page also.
       title: ""
