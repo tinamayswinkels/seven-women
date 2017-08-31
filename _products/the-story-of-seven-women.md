@@ -1,12 +1,18 @@
 ---
 title: The Story of Seven Women
-description: Bobble Garland - Rainbow
+description: >-
+  The founder of Seven Women, Stephanie Woollard has created a children's book,
+  The Story of Seven Women which explains her story behind Seven Women and is
+  illustrated by Kate Crowther.
 price: 29.95
-class: decorative-and-learning-strings
-id: 43
-pic_path: /uploads/bobble garland.png
+class: book
+id: 41
+pic_path: /uploads/fullsizerender-2.jpg
 gallery:
   - pic_path: /uploads/bobble garland.png
   - pic_path:
   - pic_path:
 ---
+
+
+The founder of Seven Women, Stephanie Woollard has created a children's book, The Story of Seven Women which explains her story behind Seven Women and is illustrated by Kate Crowther.&nbsp;
