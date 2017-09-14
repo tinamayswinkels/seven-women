@@ -2,7 +2,8 @@
 title: Silk Feel Sari Gown
 description: Silk-feel Sari Gown
 price: 59
-class: clothing-and-scarves
+class:
+  - adult's-clothing-and-Scarves
 id: 9
 gallery:
   - pic_path: /uploads/gown1.png
