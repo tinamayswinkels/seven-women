@@ -2,7 +2,8 @@
 title: Chicken Hand Puppet
 description: Chicken Hand Puppet
 price: 16.95
-class: hand-puppets
+class:
+  - children's-toys
 id: 17
 gallery:
   - pic_path: /uploads/chick.png
