@@ -2,7 +2,8 @@
 title: House Sock Set
 description: House Sock Set
 price: 700
-class: decorative-and-learning-strings
+class:
+  - adult's-clothing-and-Scarves
 id: 48
 gallery:
   - pic_path: /uploads/house sock set.png
