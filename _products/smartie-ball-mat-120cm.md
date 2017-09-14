@@ -2,7 +2,8 @@
 title: Smartie Ball Mat (120cm)
 description: Smartie Ball Mat - 120cm
 price: 449
-class: felt-ball-products
+class:
+  - decorative-and-learning-strings
 id: 25
 gallery:
   - pic_path: /uploads/mat120.png
