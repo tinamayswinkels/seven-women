@@ -36,8 +36,6 @@ collections:
     output: true
   tours:
     output: false
-  peoples:
-    output: false
   sponsor:
     output: false
 # here we can set defaults for our pages, posts of collection items
