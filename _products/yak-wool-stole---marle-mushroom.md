@@ -3,7 +3,7 @@ title: Yak Wool Stole - Marle Mushroom
 description: Yak Wool Stole - Marle Mushroom
 price: 49.95
 class:
-  - adult's-clothing-and-Scarves
+  - adult's-clothing-and-scarves
 id: 46
 gallery:
   - pic_path: /uploads/grey1.png
