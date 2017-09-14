@@ -2,7 +2,8 @@
 title: Pack of 50 Felt Balls (2cm)
 description: 50 Felt Balls
 price: 14.95
-class: felt-ball-products
+class:
+  - decorative-and-learning-strings
 id: 22
 gallery:
   - pic_path: /uploads/balls.png
