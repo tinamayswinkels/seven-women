@@ -2,7 +2,8 @@
 title: Bobble Necklace
 description: Bobble Necklace
 price: 19.95
-class: felt-ball-products
+class:
+  - decorative-and-learning-strings
 id: 43
 gallery:
   - pic_path: /uploads/necklace1.png
