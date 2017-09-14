@@ -3,7 +3,7 @@ title: House Sock Set
 description: House Sock Set
 price: 700
 class:
-  - adult's-clothing-and-Scarves
+  - adult's-clothing-and-scarves
 id: 48
 gallery:
   - pic_path: /uploads/house sock set.png
