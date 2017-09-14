@@ -3,7 +3,7 @@ title: Yak Wool Stole - Midnight Black
 description: Midnight Black Yak Wool Stole
 price: 49.95
 class:
-  - adult's-clothing-and-Scarves
+  - adult's-clothing-and-scarves
 id: 44
 gallery:
   - pic_path: /uploads/stole1.png
