@@ -7,7 +7,8 @@ description: >-
   is a story of courage, resilience and strength, these women seek to create a
   better life for themselves, their families and other women in Nepal.
 price: 29.95
-class: book
+class:
+  - books-and-dvd
 id: 43
 gallery:
   - pic_path: /uploads/bobble garland.png
