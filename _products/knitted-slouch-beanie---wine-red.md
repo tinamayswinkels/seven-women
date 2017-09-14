@@ -2,7 +2,6 @@
 title: Knitted Slouch Beanie - Wine Red
 description: Knitted Slouch Beanie - Wine Red
 price: 22
-image_path:
 class:
   - adult's-clothing-and-scarves
 id: 39
