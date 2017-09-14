@@ -2,7 +2,8 @@
 title: Parrot Hand Puppet
 description: Parrot Hand Puppet
 price: 16.95
-class: hand-puppets
+class:
+  - children's-toys
 id: 24
 gallery:
   - pic_path: /uploads/parrothandpuppet.png
