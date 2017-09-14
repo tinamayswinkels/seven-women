@@ -3,7 +3,8 @@ title: Cotton Scarves
 description: Cotton Scarves
 price: 22
 image_path:
-class: clothing-and-scarves
+class:
+  - adult's-clothing-and-Scarves
 id: 29
 gallery:
   - pic_path: /uploads/cottonscarves.png
