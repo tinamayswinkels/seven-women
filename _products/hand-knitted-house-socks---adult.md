@@ -2,7 +2,8 @@
 title: Hand Knitted House Socks - Adult
 description: Adult Knitted Socks
 price: 49
-class: clothing-and-scarves
+class:
+  - adult's-clothing-and-Scarves
 id: 23
 gallery:
   - pic_path: /uploads/socks1.png
