@@ -2,7 +2,8 @@
 title: Sheep Hand Puppet
 description: Sheep Hand Puppet
 price: 16.95
-class: hand-puppets
+class:
+  - children's-toys
 id: 41
 gallery:
   - pic_path: /uploads/sheep.png
