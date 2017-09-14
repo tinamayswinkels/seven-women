@@ -2,7 +2,8 @@
 title: Hand Puppet Set - Farm (5 Puppets)
 description: Hand Puppet Set - Farm (5 Puppets)
 price: 59.95
-class: hand-puppets
+class:
+  - children's-toys
 id: 50
 gallery:
   - pic_path: /uploads/farm1.png
