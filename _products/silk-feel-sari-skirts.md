@@ -2,7 +2,8 @@
 title: Silk Feel Sari Skirts
 description: Silk-Feel Sari Skirts
 price: 45
-class: clothing-and-scarves
+class:
+  - adult's-clothing-and-scarves
 id: 6
 gallery:
   - pic_path: /uploads/Screen Shot 2017-02-09 at 7.58.02 AM.png
