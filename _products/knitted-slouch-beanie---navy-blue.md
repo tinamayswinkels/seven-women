@@ -2,7 +2,8 @@
 title: Knitted Slouch Beanie - Navy Blue
 description: Knitted Slouch Beanie
 price: 22
-class: clothing-and-scarves
+class:
+  - adult's-clothing-and-Scarves
 id: 8
 gallery:
   - pic_path: /uploads/beanie.png
