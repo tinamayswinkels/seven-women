@@ -3,7 +3,7 @@ title: 'Knitted Infinity Scarf - Wine Red [Earthquake Relief Fund]'
 description: Knitted Infinity Scarf - Wine Red
 price: 49.95
 class:
-  - adult's-clothing-and-Scarves
+  - adult's-clothing-and-scarves
 id: 36
 gallery:
   - pic_path: /uploads/wine1.png
