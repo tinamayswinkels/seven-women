@@ -3,7 +3,7 @@ title: 'Knitted Infinity Scarf - Midnight Black [Earthquake Relief Fund]'
 description: Knitted Infinity Scarf
 price: 49.95
 class:
-  - adult's-clothing-and-Scarves
+  - adult's-clothing-and-scarves
 id: 12
 gallery:
   - pic_path: /uploads/knittedscarf.png
