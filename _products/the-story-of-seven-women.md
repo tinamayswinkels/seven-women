@@ -9,7 +9,7 @@ class:
   - books-and-dvd
 id: 41
 gallery:
-  - pic_path: /uploads/bobble garland.png
+  - pic_path: /uploads/fullsizerender-2.jpg
 ---
 
 
