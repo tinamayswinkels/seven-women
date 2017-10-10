@@ -21,7 +21,7 @@ layout: default
     <!-- if there are multiple images, show a galelry -->
     {% if page.gallery.size > 1 %}
 
-        <div class="col-6 contain gallery-target" style="background-image:url('{% for pic in page.gallery limit:1 %}{{pic.pic_path}}{% endfor %}')"></div>
+        <div class="col-6 contain gallery-target" style="background-image:url('{{page.gallery[0].pic_path}}')"></div>
          </div>
         <div class="gallerybox">
         {% for pic in page.gallery limit:5 %}
