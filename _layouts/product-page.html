@@ -18,6 +18,8 @@ layout: default
       </button>
     </div>
     
+    
+    <!-- if there are multiple images, show a galelry -->
     {% if page.gallery.size > 1 %}
 
         <div class="box-img right contain gallery-target" style="background-image:url('{% for pic in page.gallery limit:1 %}{{pic.pic_path}}{% endfor %}')"></div>
@@ -30,9 +32,12 @@ layout: default
         
     {% else %}
     
-    <div class="box-img right" style="background-image:url(' {{page.gallery[0].pic_path}}')"></div>
+    <!-- if there is only one image, just show that -->
+    <div class="box-img right contain" style="background-image:url(' {{page.gallery[0].pic_path}}')"></div>
     
     {% endif %}
+    
+    </div>
   <div class="grid border-top">
       <hr>
       <div class="col editable">
