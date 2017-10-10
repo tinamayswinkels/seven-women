@@ -22,7 +22,7 @@ layout: default
     {% if page.gallery.size > 1 %}
 
         <div class="col-6_sm-12 contain gallery-target" style="background-image:url('{{page.gallery[0].pic_path}}')"></div>
-         </div>
+        
         <div class="gallerybox">
         {% for pic in page.gallery limit:5 %}
             <div class="gallery-pic contain" data-pic="'{{pic.pic_path}}'" style="background-image:url('{{pic.pic_path}}')"></div>
@@ -32,7 +32,7 @@ layout: default
     {% else %}
     
     <!-- if there is only one image, just show that -->
-    <div class="col-6 contain" style="background-image:url(' {{page.gallery[0].pic_path}}')"></div>
+    <div class="col-6_sm-12 contain" style="background-image:url(' {{page.gallery[0].pic_path}}')"></div>
     
     {% endif %}
     
