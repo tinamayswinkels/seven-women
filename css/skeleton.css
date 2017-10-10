@@ -80,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.2rem;
   font-weight: 700; /* make sure you've downloaded this number on Google Fonts */
 }
+
 h1{
   display: inline-block;
 }
