@@ -1,5 +1,5 @@
 ---
-title: Documentary
+title: Bringing the Light Documentary DVD
 description: >-
   This film was created in 2016 to showcase the impacts on the lives of
   marginalised women in Nepal. This DVD is available for purchase and also can
@@ -11,7 +11,7 @@ class:
   - books-and-dvd
 id: 43
 gallery:
-  - pic_path: /uploads/bobble garland.png
+  - pic_path: /uploads/fullsizerender-3.jpg
 ---
 
 
