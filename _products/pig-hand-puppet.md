@@ -6,9 +6,7 @@ class:
   - children's-toys
 id: 53
 gallery:
-  - pic_path:
-  - pic_path:
-  - pic_path:
+  - pic_path: /images/hand puppets.jpg
 ---
 
 
