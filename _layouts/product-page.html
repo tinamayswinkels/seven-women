@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-<section class="container page-fill">
-  <div class="rel">
-    <div class="box-text">
+<section class="grid">
+    <div class="col-6 padded">
       <h3>{{page.title}}</h3>
       <p class="price">${{page.price}}</p>
     {{content}}
@@ -22,7 +21,7 @@ layout: default
     <!-- if there are multiple images, show a galelry -->
     {% if page.gallery.size > 1 %}
 
-        <div class="box-img right contain gallery-target" style="background-image:url('{% for pic in page.gallery limit:1 %}{{pic.pic_path}}{% endfor %}')"></div>
+        <div class="col-6 contain gallery-target" style="background-image:url('{% for pic in page.gallery limit:1 %}{{pic.pic_path}}{% endfor %}')"></div>
          </div>
         <div class="gallerybox">
         {% for pic in page.gallery limit:5 %}
@@ -33,7 +32,7 @@ layout: default
     {% else %}
     
     <!-- if there is only one image, just show that -->
-    <div class="box-img right contain" style="background-image:url(' {{page.gallery[0].pic_path}}')"></div>
+    <div class="col-6 contain" style="background-image:url(' {{page.gallery[0].pic_path}}')"></div>
     
     {% endif %}
     
