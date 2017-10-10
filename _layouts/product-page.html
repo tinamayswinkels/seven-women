@@ -21,14 +21,15 @@ layout: default
     <!-- if there are multiple images, show a gallery -->
     {% if page.gallery.size > 1 %}
 
-        <div class="col-6_sm-12 contain gallery-target" style="background-image:url('{{page.gallery[0].pic_path}}')"></div>
-        
-        <div class="gallerybox">
-        {% for pic in page.gallery limit:5 %}
-            <div class="gallery-pic contain" data-pic="'{{pic.pic_path}}'" style="background-image:url('{{pic.pic_path}}')"></div>
-        {% endfor %}
+        <div class="col-6_sm-12">
+            <div class="contain gallery-target" style="background-image:url('{{page.gallery[0].pic_path}}')"></div>
+            
+            <div class="gallerybox">
+            {% for pic in page.gallery limit:5 %}
+                <div class="gallery-pic contain" data-pic="'{{pic.pic_path}}'" style="background-image:url('{{pic.pic_path}}')"></div>
+            {% endfor %}
+            </div>
         </div>
-        
     {% else %}
     
     <!-- if there is only one image, just show that -->
