@@ -3,6 +3,10 @@ Medium Purple -- #846ca8
 
 */
 
+html {
+    overflow-x: hidden;
+}
+
 img {
     max-width: 100%;
     height: auto;
