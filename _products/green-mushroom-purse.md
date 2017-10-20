@@ -3,7 +3,6 @@ title: Royal Blue Ladybird Purse
 description: Royal Blue Ladybird Purse
 featured: false
 price: 12
-image_path:
 class: bags-and-purses
 id: 35
 gallery:

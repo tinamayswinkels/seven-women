@@ -80,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.2rem;
   font-weight: 700; /* make sure you've downloaded this number on Google Fonts */
 }
+
 h1{
   display: inline-block;
 }
@@ -88,8 +89,8 @@ h1 { font-size: 3.0rem; line-height: 1.2; }
 h2 { font-size: 2.6rem; line-height: 1.25; }
 h3 { font-size: 2.2rem; line-height: 1.3; }
 h4 { font-size: 2.0rem; line-height: 1.35; }
-h5 { font-size: 1.8rem; line-height: 1.5; }
-h6 { font-size: 1.6rem; line-height: 1.6; }
+h5 { font-size: 1.4rem; line-height: 1.5; }
+h6 { font-size: 1.2rem; line-height: 1.6; }
 
 p {
   margin-top: 0;
@@ -169,52 +170,6 @@ a:hover {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* .button class is for a button with transparent background, and the .button-primary class is added to have a second version of the button where it's a solid color background */
 
-
-.button,
-button,
-input[type="submit"] {
-  /*display: inline-block;*/
-  padding: .5rem 2.5rem;
-  color:  #775d9d;
-  text-align: center;
-  font-size: 0.8rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 2px;
-  border: 2px solid #775d9d; /* adjust color here */
-  cursor: pointer;
-  display:inline-block;
-  width: auto;
-  background-color: inherit;
-}
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus {
-  color: #4e2784;
-  border-color: #4e2784;
-  outline: 0;
-}
-
-.button-primary {
-  color: #fff;
-  background-color: #775d9d;
-  border-color: #775d9d;
-}
-
-.button.button-primary:hover,
-.button-primary:focus {
-  color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb;
-}
-
-.button.center {
-    margin: auto;
-    display:inline-block;
-}
 
 
 /* Forms

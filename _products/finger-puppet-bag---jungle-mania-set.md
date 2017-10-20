@@ -3,13 +3,12 @@ title: Finger Puppet Bag - Jungle Mania Set
 description: Jungle Mania Finger Puppet Bag
 featured: false
 price: 29.95
-image_path:
-class: hand-puppets
+class:
+  - children's-toys
 id: 32
 gallery:
   - pic_path: /uploads/jungle1.png
   - pic_path: /uploads/jungle2.png
-  - pic_path:
 ---
 
 

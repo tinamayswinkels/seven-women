@@ -3,6 +3,10 @@ Medium Purple -- #846ca8
 
 */
 
+html {
+    overflow-x: hidden;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -28,11 +32,7 @@ p.emphasis {
 box-img {
     max-width:100%;
     height:auto;
-    background-color: #b5a9cf;
-}
-
-.light {
-  background-color: rgb(240,240,240);
+    background-color: #ccbedb;
 }
 
 hr {
@@ -50,6 +50,10 @@ hr {
   padding: 2%;
 }
 
+.border-top {
+    border-top: 1px solid grey;
+}
+
 .left-b{
   border-left: 1px solid white;
 }
@@ -64,6 +68,11 @@ hr {
     padding-left: 1%;
 }
 .pad-bot-0{padding-bottom: 0}
+
+
+.min-height-40 {
+    min-height: 40vh;
+}
 
 .box-text{
 padding: 3% 5%;
@@ -117,10 +126,56 @@ min-height: 50vh;
     color: white;
     border:#fff;
 }
+
+
+.button,
+button,
+input[type="submit"] {
+  /*display: inline-block;*/
+  padding: .5rem 2.5rem;
+  color:  #775d9d;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: 2px solid #775d9d; /* adjust color here */
+  cursor: pointer;
+  display:inline-block;
+  width: auto;
+  background-color: inherit;
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus {
+  color: #4e2784;
+  border-color: #4e2784;
+  outline: 0;
+}
+
+.button.center {
+    margin: auto;
+    display:inline-block;
+}
+
+
+
+
+
 .featured .button{
     border:2px solid #fff;
     color:#fff;
 }
+
+
+
+
+
+
+
 
 .block{
     display:block;
@@ -309,7 +364,7 @@ a{
 }
 
 .faded-banner{
-  min-height: 30vh;
+  min-height: 40vh;
   width:100%;
   background-color: rgba(130, 130, 130, 0.3);
   justify-content:center;
@@ -318,7 +373,7 @@ a{
 }
 
 .banner-pic{
-  min-height: 30vh;
+  min-height: 40vh;
   width:100%;
   background-color: rgb(220,220,220);
   background-size: cover;
@@ -329,6 +384,7 @@ a{
   padding: 0;
 
 }
+
 .banner-pic h2{
     margin: 0;
     color: white;
@@ -668,6 +724,7 @@ section.tours{
 .contain {
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* media*/

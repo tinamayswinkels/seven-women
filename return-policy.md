@@ -1,5 +1,5 @@
 ---
-layout: md
+_layout: md
 ---
 # Refund and return policy
 

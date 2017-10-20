@@ -3,13 +3,11 @@ title: Elephant Hand Puppet
 description: Elephant Hand Puppet
 featured: false
 price: 16.95
-image_path:
-class: hand-puppets
+class:
+  - children's-toys
 id: 51
 gallery:
   - pic_path: /uploads/elephant puppet.png
-  - pic_path:
-  - pic_path:
 ---
 
 

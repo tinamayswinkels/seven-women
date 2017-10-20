@@ -1,5 +1,5 @@
 ---
-layout: default
+_layout: default
 title: Donate now
 description: This a fabulous description that will appear in google when you search.
 contact-form: true
@@ -37,13 +37,13 @@ donations:
   <div class="col-6_sm-0_xs-0 cover" style="background-image:url('{{page.story_path}}')">
   </div>
 </section>
-<section>
-  <h3 class="editable">Your contribution goes a long way.</h3>
+<section class="border-top">
+  <h3 class="editable center">Your contribution goes a long way.</h3>
     <div class="grid-3_xs-1">
         {% for don in page.donations %}
         <div class="mob col">
-            <h5>For ${{don.cost}}</h5>
             <div class="don-pic cover" style="background-image:url('{{don.image_path}}')"></div>
+            <h5>For ${{don.cost}}</h5>
             <p>{{don.description}}.</p>
         </div>{% endfor %}
     </div>

@@ -3,13 +3,11 @@ title: Butterfly Mobile
 description: Butterfly mobile
 featured: false
 price: 65
-image_path:
 class: mobiles
 id: 15
 gallery:
   - pic_path: /uploads/butterfly1.png
   - pic_path: /uploads/butterfly2.png
-  - pic_path:
 ---
 
 

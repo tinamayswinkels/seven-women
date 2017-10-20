@@ -1,6 +1,6 @@
 ---
 sponsor_path: /uploads/cooper-investors-logo-2-1.jpg
-name: cooper investers
+title: Cooper Investors
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 sponsor_path: /uploads/fullcolour-logo-tagline-horizontal.jpg
-name: hands on development
+title: hands on development
 ---
 
 

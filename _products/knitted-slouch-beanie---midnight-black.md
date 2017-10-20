@@ -3,13 +3,11 @@ title: Knitted Slouch Beanie - Midnight Black
 description: Knitted Slouch Beanie
 featured: false
 price: 22
-image_path:
-class: clothing-and-scarves
+class:
+  - adult's-clothing-and-scarves
 id: 37
 gallery:
   - pic_path: /uploads/beanie.png
-  - pic_path:
-  - pic_path:
 ---
 
 

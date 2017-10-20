@@ -4,12 +4,11 @@ description: Lion Hand Puppet
 featured: false
 price: 16.95
 image_path:
-class: hand-puppets
+class:
+  - children's-toys
 id: 52
 gallery:
   - pic_path: /uploads/lion hand puppet.png
-  - pic_path:
-  - pic_path:
 ---
 
 

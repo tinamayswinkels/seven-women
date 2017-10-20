@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-<section class="container page-fill">
-  <div class="rel">
-    <div class="box-text">
+<section class="grid">
+    <div class="col-6_sm-12 padded">
       <h3>{{page.title}}</h3>
       <p class="price">${{page.price}}</p>
     {{content}}
@@ -17,33 +16,38 @@ layout: default
           Buy now
       </button>
     </div>
+    
+    
+    <!-- if there are multiple images, show a gallery -->
+    {% if page.gallery.size > 1 %}
 
-    <div class="box-img right contain gallery-target" style="background-image:url('{% for pic in page.gallery limit:1 %} {{pic.pic_path}} {% endfor %}')"></div>
-  </div>
-    <div class="gallerybox">
-    {% for pic in page.gallery limit:5 %}
-    <div class="gallery-pic contain" data-pic="{{pic.pic_path}}" style="background-image:url('{{pic.pic_path}}')"></div>
-    {% endfor %}
+        <div class="col-6_sm-12">
+            <div class="min-height-40 contain gallery-target" style="background-image:url('{{page.gallery[0].pic_path}}')"></div>
+            
+            <div class="gallerybox">
+            {% for pic in page.gallery limit:5 %}
+                <div class="gallery-pic contain" data-pic="'{{pic.pic_path}}'" style="background-image:url('{{pic.pic_path}}')"></div>
+            {% endfor %}
+            </div>
+        </div>
+    {% else %}
+    
+    <!-- if there is only one image, just show that -->
+    <div class="col-6_sm-12 contain" style="background-image:url(' {{page.gallery[0].pic_path}}')"></div>
+    
+    {% endif %}
+    
     </div>
-  <div class="grid border-top">
-      <hr>
-      <div class="col editable">
-          <h4>Shipping </h4>
+
+    <div class="border-top col-6_sm-12 padded editable">
+          <h5>Shipping </h5>
           <p> Under normal circumstances, items are shipped within 1 working day of cleared payment received. Our preferred carrier is Australia Post. Domestic parcels normally reach within 5 working days. Overseas parcels may require upto 10 working days. FLAT AUD 5.00 shipping fee for domestic buyers!!</p>
             <p> Please note: we do not ship products or goods outside of Australia.</p>
       </div>
-      <div class="col">
-          <h4>Refunds & Returns</h4>
+      <div class="border-top padded col-6_sm-12">
+          <h5>Refunds & Returns</h5>
           <p>All products come with a 21 day return guarantee. Any returned item must be received by us within this time. Items must be returned unused, unwashed, in their original condition and packaging with all tags intact. You may either exchange the item or request a full refund. Return postage is at the sender`s expense - should you request replacements for returned items, you will not be charged again for delivery.</p>
       </div>
-      
-  </div>
+
 </section>
 
-<!--<section class="mob-hide border-top">-->
-<!--  <h3>Popular products</h3>-->
-<!--  <div class="grid">-->
-<!--  {% for product in site.products limit:4 %}<a class="col-3_sm-12" href="{{product.url}}"><div class="pic contain" style="background-image:url('{{product.image_path}}');">-->
-<!--  </div></a>{% endfor %}-->
-<!--   </div>-->
-<!--</section>-->

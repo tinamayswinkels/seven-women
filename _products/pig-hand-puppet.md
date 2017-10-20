@@ -3,13 +3,11 @@ title: Pig Hand Puppet
 description: Pig Hand Puppet
 featured: false
 price: 16.95
-image_path:
-class: hand-puppets
+class:
+  - children's-toys
 id: 53
 gallery:
-  - pic_path:
-  - pic_path:
-  - pic_path:
+  - pic_path: /images/hand puppets.jpg
 ---
 
 

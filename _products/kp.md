@@ -4,12 +4,11 @@ description: Koala Hand Puppet
 featured: false
 price: 16.95
 image_path:
-class: hand-puppets
+class:
+  - children's-toys
 id: 40
 gallery:
   - pic_path: /uploads/koala.png
-  - pic_path:
-  - pic_path:
 ---
 
 

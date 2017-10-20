@@ -3,13 +3,11 @@ title: Knitted Fingerless Gloves - Midnight Black
 description: fingerless gloves
 featured: false
 price: 22
-image_path:
-class: clothing-and-scarves
+class:
+  - adult's-clothing-and-scarves
 id: 21
 gallery:
   - pic_path: /uploads/black gloves.png
-  - pic_path:
-  - pic_path:
 ---
 
 

@@ -3,13 +3,10 @@ title: Purple Owl Purse
 description: Felt Owl Purse
 featured: false
 price: 12
-image_path:
 class: bags-and-purses
 id: 33
 gallery:
   - pic_path: /uploads/purple purse.png
-  - pic_path:
-  - pic_path:
 ---
 
 

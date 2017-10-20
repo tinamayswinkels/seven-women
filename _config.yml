@@ -1,11 +1,12 @@
-# this is your configuration file that gives instructions to jekyll
-brand_color: '#f05f40'
-featured_color: red
-light_color: grey
-font_family: 'Courier New'
-heading_font_size: 18px
-body_font_size: 18px
-
+class:
+  - children's-toys 
+  - children's-clothing
+  - christmas-decorations
+  - bags-and-purses
+  - decorative-and-learning-strings
+  - mobiles
+  - adult's-clothing-and-scarves
+  - books-and-dvd
 
 # here list all of your categories
 categories:
@@ -26,8 +27,6 @@ collections:
   products:
     output: true
   tours:
-    output: false
-  peoples:
     output: false
   sponsor:
     output: false
@@ -59,8 +58,15 @@ defaults:
       type: "products" # this will apply to all products
     values:
       layout: "product-page"
+      _comments:
+        title: This is the name of the product. It will appear on the browser tab and on the store page.
+        description: This will show up if some one googles this product and it comes up on a google search page.
+        class: This is where you put in the type of item it is and allows it to be filtered by that type. Max one class per item.
+        id: This is a unique number that snipcart needs to process the product.
+        gallery: This is where we place images that will show up on the product page. The first one will be on the store page also.
       title: ""
       description: ""
       price: ""
       type: ""
       image_path: ""
+
