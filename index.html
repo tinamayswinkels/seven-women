@@ -50,7 +50,7 @@ volunteerpic_path: /images/volunteering1.jpg
 
 <section class="channels grid">
   {% for channel in page.channels limit:3 %}
-  <a class="col-4_sm-12 banner-pic" href="{{channel.url}}"><div style="background-image:url({{channel.background_path}})" class="third-height flex-center">
+  <a class="col-4_sm-12 store-img" href="{{channel.url}}"><div style="background-image:url({{channel.background_path}})" class="third-height flex-center">
     <h2 class="editable center">{{channel.name}}</h2>
     </div></a>
   {% endfor %}
