@@ -7,7 +7,7 @@ class:
   - children's-toys
 id: 54
 gallery:
-  - pic_path: /uploads/bobble garland.png
+  - pic_path: /images/bobble garland.png
 ---
 
 

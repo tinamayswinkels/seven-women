@@ -7,8 +7,8 @@ class:
   - children's-toys
 id: 32
 gallery:
-  - pic_path: /uploads/jungle1.png
-  - pic_path: /uploads/jungle2.png
+  - pic_path: /images/jungle1.png
+  - pic_path: /images/jungle2.png
 ---
 
 

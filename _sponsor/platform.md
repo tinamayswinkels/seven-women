@@ -1,5 +1,5 @@
 ---
-sponsor_path: /uploads/unnamed-1.jpg
+sponsor_path: /images/unnamed-1.jpg
 title: platform
 ---
 

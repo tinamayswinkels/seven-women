@@ -7,7 +7,7 @@ class:
   - children's-toys
 id: 18
 gallery:
-  - pic_path: /uploads/horse.png
+  - pic_path: /images/horse.png
 ---
 
 

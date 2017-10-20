@@ -7,7 +7,7 @@ class:
   - children's-toys
 id: 49
 gallery:
-  - pic_path: /uploads/hand puppet set.png
+  - pic_path: /images/hand puppet set.png
 ---
 
 

@@ -7,5 +7,5 @@ class:
   - children's-toys
 id: 30
 gallery:
-  - pic_path: /uploads/cow.png
+  - pic_path: /images/cow.png
 ---

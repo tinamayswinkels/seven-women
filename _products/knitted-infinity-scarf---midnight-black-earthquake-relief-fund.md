@@ -7,8 +7,8 @@ class:
   - adult's-clothing-and-scarves
 id: 12
 gallery:
-  - pic_path: /uploads/knittedscarf.png
-  - pic_path: /uploads/knittedscarf2.png
+  - pic_path: /images/knittedscarf.png
+  - pic_path: /images/knittedscarf2.png
 ---
 
 

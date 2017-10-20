@@ -6,7 +6,7 @@ price: 49.95
 class: decorative-and-learning-strings
 id: 19
 gallery:
-  - pic_path: /uploads/rainbow.png
+  - pic_path: /images/rainbow.png
 ---
 
 

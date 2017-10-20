@@ -6,7 +6,7 @@ price: 12
 class: bags-and-purses
 id: 47
 gallery:
-  - pic_path: /uploads/petrol.png
+  - pic_path: /images/petrol.png
 ---
 
 

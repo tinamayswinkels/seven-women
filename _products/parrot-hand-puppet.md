@@ -7,7 +7,7 @@ class:
   - children's-toys
 id: 24
 gallery:
-  - pic_path: /uploads/parrothandpuppet.png
+  - pic_path: /images/parrothandpuppet.png
 ---
 
 

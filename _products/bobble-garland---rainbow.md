@@ -7,7 +7,7 @@ class:
   - decorative-and-learning-strings
 id: 43
 gallery:
-  - pic_path: /uploads/bobble garland.png
+  - pic_path: /images/bobble garland.png
 ---
 
 

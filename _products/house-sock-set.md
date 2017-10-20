@@ -7,8 +7,8 @@ class:
   - adult's-clothing-and-scarves
 id: 48
 gallery:
-  - pic_path: /uploads/house sock set.png
-  - pic_path: /uploads/house sock set2.png
+  - pic_path: /images/house sock set.png
+  - pic_path: /images/house sock set2.png
 ---
 
 

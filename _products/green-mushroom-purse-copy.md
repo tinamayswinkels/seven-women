@@ -6,7 +6,7 @@ price: 12
 class: bags-and-purses
 id: 34
 gallery:
-  - pic_path: /uploads/greenpurse.png
+  - pic_path: /images/greenpurse.png
 ---
 
 

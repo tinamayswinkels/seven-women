@@ -7,7 +7,7 @@ class:
   - adult's-clothing-and-scarves
 id: 20
 gallery:
-  - pic_path: /uploads/fingerless.png
+  - pic_path: /images/fingerless.png
 ---
 
 

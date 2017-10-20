@@ -7,8 +7,8 @@ class:
   - adult's-clothing-and-scarves
 id: 6
 gallery:
-  - pic_path: /uploads/Screen Shot 2017-02-09 at 7.58.02 AM.png
-  - pic_path: /uploads/Screen Shot 2017-02-09 at 7.58.22 AM.png
+  - pic_path: /images/Screen Shot 2017-02-09 at 7.58.02 AM.png
+  - pic_path: /images/Screen Shot 2017-02-09 at 7.58.22 AM.png
 ---
 
 

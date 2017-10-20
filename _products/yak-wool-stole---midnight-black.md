@@ -7,9 +7,9 @@ class:
   - adult's-clothing-and-scarves
 id: 44
 gallery:
-  - pic_path: /uploads/stole1.png
-  - pic_path: /uploads/stole2.png
-  - pic_path: /uploads/stole3.png
+  - pic_path: /images/stole1.png
+  - pic_path: /images/stole2.png
+  - pic_path: /images/stole3.png
 ---
 
 

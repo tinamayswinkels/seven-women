@@ -7,8 +7,8 @@ class:
   - children's-toys
 id: 1
 gallery:
-  - pic_path: /uploads/screenshot-10.png
-  - pic_path: /uploads/screenshot-12.png
+  - pic_path: /images/screenshot-10.png
+  - pic_path: /images/screenshot-12.png
 ---
 
 

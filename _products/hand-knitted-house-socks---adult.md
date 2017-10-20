@@ -7,8 +7,8 @@ class:
   - adult's-clothing-and-scarves
 id: 23
 gallery:
-  - pic_path: /uploads/socks1.png
-  - pic_path: /uploads/socks2.png
+  - pic_path: /images/socks1.png
+  - pic_path: /images/socks2.png
 ---
 
 

@@ -7,9 +7,9 @@ class:
   - adult's-clothing-and-scarves
 id: 36
 gallery:
-  - pic_path: /uploads/wine1.png
-  - pic_path: /uploads/wine2.png
-  - pic_path: /uploads/wine3.png
+  - pic_path: /images/wine1.png
+  - pic_path: /images/wine2.png
+  - pic_path: /images/wine3.png
 ---
 
 

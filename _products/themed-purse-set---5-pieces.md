@@ -6,7 +6,7 @@ price: 60
 class: bags-and-purses
 id: 11
 gallery:
-  - pic_path: /uploads/purse-set.png
+  - pic_path: /images/purse-set.png
 ---
 
 

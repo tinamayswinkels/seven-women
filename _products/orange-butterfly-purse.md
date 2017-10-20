@@ -6,7 +6,7 @@ price: 12
 class: bags-and-purses
 id: 36
 gallery:
-  - pic_path: /uploads/orange.png
+  - pic_path: /images/orange.png
 ---
 
 

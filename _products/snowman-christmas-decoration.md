@@ -6,8 +6,8 @@ price: 7.5
 class: christmas-decorations
 id: 14
 gallery:
-  - pic_path: /uploads/ornament.png
-  - pic_path: /uploads/ornament2.png
+  - pic_path: /images/ornament.png
+  - pic_path: /images/ornament2.png
 ---
 
 

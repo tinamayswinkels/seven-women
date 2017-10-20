@@ -6,8 +6,8 @@ price: 65
 class: mobiles
 id: 15
 gallery:
-  - pic_path: /uploads/butterfly1.png
-  - pic_path: /uploads/butterfly2.png
+  - pic_path: /images/butterfly1.png
+  - pic_path: /images/butterfly2.png
 ---
 
 

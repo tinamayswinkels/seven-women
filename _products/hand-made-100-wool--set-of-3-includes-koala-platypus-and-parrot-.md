@@ -7,9 +7,9 @@ class:
   - children's-toys
 id: 50
 gallery:
-  - pic_path: /uploads/farm1.png
-  - pic_path: /uploads/farm2.png
-  - pic_path: /uploads/farm3.png
+  - pic_path: /images/farm1.png
+  - pic_path: /images/farm2.png
+  - pic_path: /images/farm3.png
 ---
 
 

@@ -6,7 +6,7 @@ price: 29.95
 class: hand-puppets
 id: 28
 gallery:
-  - pic_path: /uploads/finger puppet bag.png
+  - pic_path: /images/finger puppet bag.png
 
 ---
 

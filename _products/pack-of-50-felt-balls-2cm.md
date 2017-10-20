@@ -7,7 +7,7 @@ class:
   - decorative-and-learning-strings
 id: 22
 gallery:
-  - pic_path: /uploads/balls.png
+  - pic_path: /images/balls.png
 ---
 
 

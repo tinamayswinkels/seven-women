@@ -7,8 +7,8 @@ class:
   - adult's-clothing-and-scarves
 id: 31
 gallery:
-  - pic_path: /uploads/infinity2.png
-  - pic_path: /uploads/infinity2.png
+  - pic_path: /images/infinity2.png
+  - pic_path: /images/infinity2.png
 ---
 
 

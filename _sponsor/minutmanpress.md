@@ -1,5 +1,5 @@
 ---
-sponsor_path: /uploads/image001.png
+sponsor_path: /images/image001.png
 title: minuteman press
 ---
 

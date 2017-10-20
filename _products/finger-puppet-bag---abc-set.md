@@ -6,7 +6,7 @@ price: 29.95
 class: bags-and-purses
 id: 10
 gallery:
-  - pic_path: /uploads/bag.png
+  - pic_path: /images/bag.png
 ---
 
 

@@ -7,7 +7,7 @@ class:
   - adult's-clothing-and-scarves
 id: 29
 gallery:
-  - pic_path: /uploads/cottonscarves.png
+  - pic_path: /images/cottonscarves.png
 ---
 
 

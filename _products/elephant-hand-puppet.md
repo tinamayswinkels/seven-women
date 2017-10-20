@@ -7,7 +7,7 @@ class:
   - children's-toys
 id: 51
 gallery:
-  - pic_path: /uploads/elephant puppet.png
+  - pic_path: /images/elephant puppet.png
 ---
 
 

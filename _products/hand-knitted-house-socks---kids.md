@@ -7,8 +7,8 @@ class:
   - children's-clothing
 id: 38
 gallery:
-  - pic_path: /uploads/kids socks1.png
-  - pic_path: /uploads/kids socks2.png
+  - pic_path: /images/kids socks1.png
+  - pic_path: /images/kids socks2.png
 ---
 
 

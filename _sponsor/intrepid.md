@@ -1,5 +1,5 @@
 ---
-sponsor_path: /uploads/intrepidfoundation-teal1.jpg
+sponsor_path: /images/intrepidfoundation-teal1.jpg
 title: intrepid
 ---
 

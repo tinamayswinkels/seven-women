@@ -7,7 +7,7 @@ class:
   - adult's-clothing-and-scarves
 id: 21
 gallery:
-  - pic_path: /uploads/black gloves.png
+  - pic_path: /images/black gloves.png
 ---
 
 

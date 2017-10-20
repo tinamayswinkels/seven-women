@@ -13,4 +13,4 @@ Ut eum veniam dicunt virtute, an noster voluptua convenire mei. At sed tollit sc
 
 Lorem ipsum dolor sit amet, ei noster inciderint eloquentiam cum, eos maiorum suavitate constituam cu. Homero aperiam feugiat pro ne. Te mea putent feugait molestie, ius ex velit patrioque. Id ius mollis facilis. Vel diam invenire in, te elit ludus usu. Cu qui dicant persius, mei vide sonet efficiendi an, eu esse deseruisse elaboraret eos.
 
-<span style="float:left;">**![](/uploads/versions/dog---x----1600-1067x---.jpg)**</span>
+<span style="float:left;">**![](/images/versions/dog---x----1600-1067x---.jpg)**</span>

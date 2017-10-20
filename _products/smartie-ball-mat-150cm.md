@@ -7,7 +7,7 @@ class:
   - decorative-and-learning-strings
 id: 13
 gallery:
-  - pic_path: /uploads/mat150.png
+  - pic_path: /images/mat150.png
 ---
 
 

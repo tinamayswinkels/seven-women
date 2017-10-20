@@ -6,7 +6,7 @@ price: 12
 class: bags-and-purses
 id: 35
 gallery:
-  - pic_path: /uploads/royal blue.png
+  - pic_path: /images/royal blue.png
 ---
 
 

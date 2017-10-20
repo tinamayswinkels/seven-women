@@ -7,7 +7,7 @@ class:
   - decorative-and-learning-strings
 id: 5
 gallery:
-  - pic_path: /uploads/Screen Shot 2017-02-09 at 6.58.26 AM.png
+  - pic_path: /images/Screen Shot 2017-02-09 at 6.58.26 AM.png
 ---
 
 

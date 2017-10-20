@@ -1,7 +1,7 @@
 ---
 _layout: tours
 title: Cultural Immersion 10 day tour
-image_path: /uploads/screen-shot-2017-01-09-at-1-45-09-am.png
+image_path: /images/screen-shot-2017-01-09-at-1-45-09-am.png
 externalUrl:
 ---
 

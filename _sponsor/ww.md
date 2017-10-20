@@ -1,5 +1,5 @@
 ---
-sponsor_path: /uploads/screenshot-15.png
+sponsor_path: /images/screenshot-15.png
 title: ww
 ---
 

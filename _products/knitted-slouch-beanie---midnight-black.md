@@ -7,7 +7,7 @@ class:
   - adult's-clothing-and-scarves
 id: 37
 gallery:
-  - pic_path: /uploads/beanie.png
+  - pic_path: /images/beanie.png
 ---
 
 

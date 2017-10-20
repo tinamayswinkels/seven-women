@@ -11,7 +11,7 @@ class:
   - books-and-dvd
 id: 43
 gallery:
-  - pic_path: /uploads/fullsizerender-3.jpg
+  - pic_path: /images/fullsizerender-3.jpg
 ---
 
 

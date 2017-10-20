@@ -1,4 +1,4 @@
 ---
-sponsor_path: /uploads/britex-logo-1.jpg
+sponsor_path: /images/britex-logo-1.jpg
 title: Test Sponsor
 ---

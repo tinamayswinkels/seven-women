@@ -6,7 +6,7 @@ class:
   - books-and-dvd
 id: 53
 gallery:
-  - pic_path: /uploads/fullsizerender-1.jpg
+  - pic_path: /images/fullsizerender-1.jpg
   - pic_path:
 ---
 

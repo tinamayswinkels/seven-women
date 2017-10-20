@@ -1,5 +1,5 @@
 ---
-sponsor_path: /uploads/cropped-logga-stellastar.png
+sponsor_path: /images/cropped-logga-stellastar.png
 title: stellarstar
 ---
 

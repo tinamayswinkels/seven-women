@@ -7,7 +7,7 @@ class:
   - children's-toys
 id: 41
 gallery:
-  - pic_path: /uploads/sheep.png
+  - pic_path: /images/sheep.png
 ---
 
 

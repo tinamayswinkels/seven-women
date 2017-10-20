@@ -7,8 +7,8 @@ class:
   - decorative-and-learning-strings
 id: 43
 gallery:
-  - pic_path: /uploads/necklace1.png
-  - pic_path: /uploads/necklace2.png
+  - pic_path: /images/necklace1.png
+  - pic_path: /images/necklace2.png
   - pic_path:
 ---
 

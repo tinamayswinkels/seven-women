@@ -7,8 +7,8 @@ class:
   - adult's-clothing-and-scarves
 id: 26
 gallery:
-  - pic_path: /uploads/silktop1.png
-  - pic_path: /uploads/silktop2.png
+  - pic_path: /images/silktop1.png
+  - pic_path: /images/silktop2.png
 ---
 
 

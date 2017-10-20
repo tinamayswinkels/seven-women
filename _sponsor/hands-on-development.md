@@ -1,5 +1,5 @@
 ---
-sponsor_path: /uploads/fullcolour-logo-tagline-horizontal.jpg
+sponsor_path: /images/fullcolour-logo-tagline-horizontal.jpg
 title: hands on development
 ---
 

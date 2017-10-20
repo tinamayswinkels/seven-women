@@ -7,7 +7,7 @@ class:
   - children's-toys
 id: 17
 gallery:
-  - pic_path: /uploads/chick.png
+  - pic_path: /images/chick.png
 ---
 
 
