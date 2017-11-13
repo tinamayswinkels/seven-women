@@ -11,4 +11,4 @@ gallery:
 ---
 
 
-The founder of Seven Women, Stephanie Woollard has written a book called From a Tin Shed to the United Nations Which takes you on her entrepreneurial journey and explores how every one of us can make a difference.
+The founder of Seven Women, Stephanie Woollard has written a book called From a Tin Shed to the United Nations which takes you on her entrepreneurial journey and explores how every one of us can make a difference.
