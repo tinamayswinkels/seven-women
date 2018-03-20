@@ -21,23 +21,171 @@ catagories:
  </div>
 </section>
 <section class="light">
-  <ul id="portfolio-filter">
-    <li><a href="#portfolio-grid">All</a></li>
-    {% for cat in page.catagories %}
-    <li><a href="#portfolio-grid">{{cat.type}}</a></li>
-    {% endfor %}
-  </ul>
+    
+    <!-- shopify embed -->
+    
+<div id='collection-component-6bfb741101e'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
 
-  <div class="image-grid popup-gallery" id="portfolio-grid">
-  {% for product in site.products limit:100 %}
-  <a class="col-4_sm-6_xs-12 img-with-overlay {{product.class}}" href="{{product.url}}">
-      <div class="white-box grid">
-            <div class="shop-img contain col-12" style="background-image:url('{% for pic in product.gallery limit:1 %}{{pic.pic_path}}{% endfor %}')"></div>
-             <p class="col-9">{{product.title}} </p>
-             <p class="col-3">${{product.price}}</p>
-          </a>{% endfor %}
-    </div>
-  </div>
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'seven-women-stall.myshopify.com',
+      apiKey: '9579aa532a5d4fd5e818ff3b171f318f',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: 34052210735,
+        node: document.getElementById('collection-component-6bfb741101e'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#8857b6",
+        ":hover": {
+          "background-color": "#7a4ea4"
+        },
+        ":focus": {
+          "background-color": "#7a4ea4"
+        }
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#8857b6",
+        ":hover": {
+          "background-color": "#7a4ea4"
+        },
+        ":focus": {
+          "background-color": "#7a4ea4"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#8857b6",
+        ":hover": {
+          "background-color": "#7a4ea4"
+        },
+        ":focus": {
+          "background-color": "#7a4ea4"
+        }
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#8857b6",
+        ":hover": {
+          "background-color": "#7a4ea4"
+        },
+        ":focus": {
+          "background-color": "#7a4ea4"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+    
+</section>
+    
+<!--<section class="light">   -->
+<!--  <ul id="portfolio-filter">-->
+<!--    <li><a href="#portfolio-grid">All</a></li>-->
+<!--    {% for cat in page.catagories %}-->
+<!--    <li><a href="#portfolio-grid">{{cat.type}}</a></li>-->
+<!--    {% endfor %}-->
+<!--  </ul>-->
+
+<!--  <div class="image-grid popup-gallery" id="portfolio-grid">-->
+<!--  {% for product in site.products limit:100 %}-->
+<!--  <a class="col-4_sm-6_xs-12 img-with-overlay {{product.class}}" href="{{product.url}}">-->
+<!--      <div class="white-box grid">-->
+<!--            <div class="shop-img contain col-12" style="background-image:url('{% for pic in product.gallery limit:1 %}{{pic.pic_path}}{% endfor %}')"></div>-->
+<!--             <p class="col-9">{{product.title}} </p>-->
+<!--             <p class="col-3">${{product.price}}</p>-->
+<!--          </a>{% endfor %}-->
+<!--    </div>-->
+<!--  </div>-->
 
   <!--  <div class="image-grid popup-gallery" id="portfolio-grid">-->
   <!--{% for product in site.products limit:20 %}-->
@@ -46,5 +194,5 @@ catagories:
   <!--   <p>Read On</p>-->
   <!--</a>{% endfor %}-->
   <!--</div>-->
-</section>
+<!--</section>-->
 {% include jq.html %}
